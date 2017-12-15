@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* ### Bindings protocol draft 02 says to return 507
+* ### (Cross Server Binding Forbidden); Apache already defines 507
+* ### as HTTP_INSUFFICIENT_STORAGE. So, for now, we'll return
+* ### HTTP_FORBIDDEN
+*/

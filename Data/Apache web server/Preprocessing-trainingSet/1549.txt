@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/props.c
+task
+/*
+** If an error occurred, then assume that we didn't change the
+** value. Remove the rollback item so that we don't try to set
+** its value during the rollback.
+*/

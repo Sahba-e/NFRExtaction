@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/*
+* Save input_brigade in body_brigade. (At least) in the SSL case
+* input_brigade contains transient buckets whose data would get
+* overwritten during the next call of ap_get_brigade in the loop.
+* ap_save_brigade ensures these buckets to be set aside.
+* Calling ap_save_brigade with NULL as filter is OK, because
+* body_brigade already has been created and does not need to get
+* created by ap_save_brigade.
+*/

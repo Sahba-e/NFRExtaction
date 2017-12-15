@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/motorz/motorz.c
+inline
+/* Don't perform idle maintenance when a child dies,
+* only do it when there's a timeout. Remember only a
+* finite number of children can die, and it's pretty
+* pathological for a lot to die suddenly.
+*/

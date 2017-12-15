@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* XXX: Ok, if we aborted, we ARE at the EOS. We also have
+* aborted. This 'double protection' is probably redundant,
+* but also effective against just about anything.
+*/

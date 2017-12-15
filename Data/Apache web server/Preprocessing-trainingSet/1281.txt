@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/worker/worker.c
+member
+/* For systems following the LFS standard, ignoring SIGXFSZ allows
+* a write() beyond the 2GB limit to fail gracefully with E2BIG
+* rather than terminate the process. */

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* We have a valid cache entry and a locally generated SGL.
+* Attach the SGL to the cache entry
+*/

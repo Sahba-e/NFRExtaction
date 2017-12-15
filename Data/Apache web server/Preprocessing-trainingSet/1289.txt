@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm_unix.c
+inline
+/* Recall: we only worry about IDLE child processes here */

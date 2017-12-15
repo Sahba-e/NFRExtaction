@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* If we're trying to have the user name set from a client
+* certificate then we need to set it here. This should be safe as
+* the user name probably isn't important from an auth checking point
+* of view as the certificate supplied acts in that capacity.
+* However, if FakeAuth is being used then this isn't the case so
+* we need to postpone setting the username until later.
+*/

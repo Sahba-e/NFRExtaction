@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authz_groupfile.c
+inline
+/* no groups available, so exit immediately */

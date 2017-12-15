@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+member
+/* On AIX, for processes like mod_cgid's script children where
+* SIGCHLD is ignored, kill(pid,0) returns success for up to
+* one second after the script child exits, based on when a
+* daemon runs to clean up unnecessary process table entries.
+* getpgid() can report the proper info (-1/ESRCH) immediately.
+*/

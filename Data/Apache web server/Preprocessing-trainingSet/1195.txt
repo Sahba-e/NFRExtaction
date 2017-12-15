@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_scgi.c
+member
+/*
+* We create our own bucket type, which is actually derived (c&p) from the
+* socket bucket.
+* Maybe some time this should be made more abstract (like passing an
+* interception function to read or something) and go into the ap_ or
+* even apr_ namespace.
+*/

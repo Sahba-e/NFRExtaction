@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_ratelimit.c
+inline
+/* speed is bytes / second, so, how many (speed / 1000 % interval) */

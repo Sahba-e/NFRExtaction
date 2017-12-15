@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_fcgi.c
+inline
+/* An Authorizer application's 200 response may include headers
+* whose names are prefixed with Variable-, and they should be
+* available to subsequent phases via subprocess_env (and yanked
+* from the client response).
+*/

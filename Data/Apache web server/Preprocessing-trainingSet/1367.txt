@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_auth_form.c
+inline
+/*
+* We'll assume that the module has already said what its error
+* was in the logs.
+*/

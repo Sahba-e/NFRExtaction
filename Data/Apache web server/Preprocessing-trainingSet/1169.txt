@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/balancers/mod_lbmethod_byrequests.c
+inline
+/* If the worker is in error state run
+* retry on that worker. It will be marked as
+* operational if the retry timeout is elapsed.
+* The worker might still be unusable, but we try
+* anyway.
+*/

@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/*
+* Pass Data to Cache
+* ------------------
+* This section passes the brigades into the cache modules, but only
+* if the setup section (see below) is complete.
+*/

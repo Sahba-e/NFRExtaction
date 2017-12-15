@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/ab.c
+inline
+/* connection closed, but in violation of the protocol, after
+* some data has already been read; this commonly happens, so
+* let the length check catch any response errors
+*/

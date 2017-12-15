@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap_cache_mgr.c
+
+/* This frees cache in the right way even if !APR_HAS_SHARED_MEMORY or !st->cache_rmm */

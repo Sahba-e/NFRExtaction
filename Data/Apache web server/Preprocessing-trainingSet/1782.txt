@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Don't negotiate directories and other unusual files
+* Really shouldn't see anything but DIR/LNK/REG here,
+* and we aught to discover if the LNK was interesting.
+*
+* Of course, this only helps platforms that capture the
+* the filetype in apr_dir_read(), which most can once
+* they are optimized with some magic [it's known to the
+* dirent, not associated to the inode, on most FS's.]
+*/

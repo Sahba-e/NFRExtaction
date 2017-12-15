@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm_unix.c
+inline
+/* If possible, find a listener which is configured for
+* plain-HTTP, not SSL; using an SSL port would either be
+* expensive to do correctly (performing a complete SSL handshake)
+* or cause log spam by doing incorrectly (simply sending EOF). */

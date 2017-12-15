@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/dbm.c
+task
+/* Note: mapping->ns_map was set up in dav_propdb_map_namespaces() */

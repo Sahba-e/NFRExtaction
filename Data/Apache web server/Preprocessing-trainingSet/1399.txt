@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+section
+/* Handles for cache filters, resolved at startup to eliminate
+* a name-to-function mapping on each request
+*/

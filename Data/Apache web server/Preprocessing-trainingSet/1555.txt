@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+* Lookup the URI and return the sub-request. Note that we use the
+* same HTTP method on the destination. This allows the destination
+* to apply appropriate restrictions (e.g. readonly).
+*/

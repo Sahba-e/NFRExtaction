@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Sometimes clients will give us no Accept info at all; this routine sets
+* up the standard default for that case, and also arranges for us to be
+* willing to run a CGI script if we find one. (In fact, we set up to
+* dramatically prefer CGI scripts in cases where that's appropriate,
+* e.g., POST or when URI includes query args or extra path info).
+*/

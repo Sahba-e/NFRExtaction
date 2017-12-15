@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_ldap.c
+inline
+/* PR52464 exhaust attrs in base group before checking subgroups */

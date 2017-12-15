@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+
+/* The cache settings can not be modified in a
+virtual host since all server use the same
+shared memory cache. */

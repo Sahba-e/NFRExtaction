@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* Note: this is a teeny bit of overkill since we know there are no
+* '<' or '>' characters, but who cares.
+*/

@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+inline
+/*
+* In case the CPING / CPONG failed for the first time we might be
+* just out of luck and got a faulty backend connection, but the
+* backend might be healthy nevertheless. So ensure that the backend
+* TCP connection gets closed and try it once again.
+*/

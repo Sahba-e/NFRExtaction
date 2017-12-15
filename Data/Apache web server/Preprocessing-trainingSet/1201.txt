@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+member
+/*
+* Cookies are a bit trickier to match: we've got two substrings to worry
+* about, and we can't just find them with strstr 'cos of case. Regexp
+* matching would be an easy fix, but for better consistency with all the
+* other matches we'll refrain and use apr_strmatch to find path=/domain=
+* and stick to plain strings for the config values.
+*/

@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** If there is no If: header, then we can shortcut some logic:
+**
+** 1) if we do not need to find a locktoken in the (non-existent) If:
+** header, then we are successful.
+**
+** 2) if we must find a locktoken in the (non-existent) If: header, then
+** we fail.
+*/

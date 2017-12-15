@@ -1,0 +1,17 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* is a combination of:
+* HSE_URL_FLAGS_READ 0x001 Allow read
+* HSE_URL_FLAGS_WRITE 0x002 Allow write
+* HSE_URL_FLAGS_EXECUTE 0x004 Allow execute
+* HSE_URL_FLAGS_SSL 0x008 Require SSL
+* HSE_URL_FLAGS_DONT_CACHE 0x010 Don't cache (VRoot only)
+* HSE_URL_FLAGS_NEGO_CERT 0x020 Allow client SSL cert
+* HSE_URL_FLAGS_REQUIRE_CERT 0x040 Require client SSL cert
+* HSE_URL_FLAGS_MAP_CERT 0x080 Map client SSL cert to account
+* HSE_URL_FLAGS_SSL128 0x100 Require 128-bit SSL cert
+* HSE_URL_FLAGS_SCRIPT 0x200 Allow script execution
+*
+* XxX: As everywhere, EXEC flags could use some work...
+* and this could go further with more flags, as desired.
+*/

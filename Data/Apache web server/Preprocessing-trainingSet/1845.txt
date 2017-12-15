@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/ajp_header.c
+
+/* XXXX need to figure out how to do this
+if (s->secret) {
+if (ajp_msg_append_uint8(msg, SC_A_SECRET) ||
+ajp_msg_append_string(msg, s->secret)) {
+ap_log_rerror(APLOG_MARK, APLOG_ERR, 0, r,
+"e;Error ajp_marshal_into_msgb - "e;
+"e;Error appending secret"e;);
+return APR_EGENERAL;
+}
+}
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/* Search again to make sure that another thread didn't ready insert
+* this node into the cache before we got here. If it does exist then
+* update the lastbind
+*/

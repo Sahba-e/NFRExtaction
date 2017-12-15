@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_vhost_alias.c
+
+/* ### There is an optimization available here to determine the
+* absolute portion of the path from the server config phase,
+* through the first % segment, and note that portion of the path
+* canonical_path buffer.
+*/

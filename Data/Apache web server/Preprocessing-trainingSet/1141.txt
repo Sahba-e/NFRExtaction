@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_imagemap.c
+task
+/* XXX: This used to do *value = '\0'; ... which is totally bogus
+* because it hammers the passed in value, which can be a string
+* constant, or part of a config, or whatever. Total garbage.
+* This works around that without changing the rest of this
+* code much
+*/

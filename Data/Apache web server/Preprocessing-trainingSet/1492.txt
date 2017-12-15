@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+inline
+/* Postfix call for MOVE. delete the source dir.
+* Note: when copying, we do not enable the postfix-traversal.
+*/

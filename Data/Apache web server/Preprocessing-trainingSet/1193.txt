@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+inline
+/*
+* Is it an HTTP/0.9 response or did we maybe preread the 1st line of
+* the response? If so, load the extra data. These are 2 mutually
+* exclusive possibilities, that just happen to require very
+* similar behavior.
+*/

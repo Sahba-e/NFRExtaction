@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* Support for per-directory reconfigured SSL connection parameters
+*
+* We do not force any renegotiation if the user is already authenticated
+* via SRP.
+*
+*/

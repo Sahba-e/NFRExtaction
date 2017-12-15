@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* 2. Find previously created cache entry and check if there is already a
+* subgrouplist.
+*/

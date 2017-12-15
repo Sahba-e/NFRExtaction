@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/* Try to match the URI against the RewriteRule pattern
+* and exit immediately if it didn't apply.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+
+/*
+* If we already send data, signal a broken backend connection
+* upwards in the chain.
+*/

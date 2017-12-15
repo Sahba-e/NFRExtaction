@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authz_core.c
+inline
+/*
+* If the argument to the 'all' provider is 'granted' then just let
+* everybody in. This would be equivalent to the previous syntax of
+* 'allow from all'. If the argument is 'denied' we reject everbody,
+* which is equivalent to 'deny from all'.
+*/

@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+member
+/* dav_process_if_header:
+*
+* If NULL (no error) is returned, then **if_header points to the
+* "e;If"e; productions structure (or NULL if "e;If"e; is not present).
+*
+* ### this part is bogus:
+* If an error is encountered, the error is logged. Parent should
+* return err->status.
+*/

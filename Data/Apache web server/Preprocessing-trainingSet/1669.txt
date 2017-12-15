@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/* names may identical when treated case-insensitively,
+* so always fall back on strcmp() flavors to put entries
+* in deterministic order. This means that 'ABC' and 'abc'
+* will always appear in the same order, rather than
+* variably between 'ABC abc' and 'abc ABC' order.
+*/

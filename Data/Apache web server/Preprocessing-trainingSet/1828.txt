@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/*
+* magic_process - process input file r Apache API request record
+* (formerly called "e;process"e; in file command, prefix added for clarity) Opens
+* the file and reads a fixed-size buffer to begin processing the contents.
+*/

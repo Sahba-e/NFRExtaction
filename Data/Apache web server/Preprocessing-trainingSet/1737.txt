@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/*
+* Status Handler
+* --------------
+*
+* This handler generates a status page about the current performance of
+* the LDAP cache. It is enabled as follows:
+*
+* <Location /ldap-status>
+* SetHandler ldap-status
+* </Location>
+*
+*/

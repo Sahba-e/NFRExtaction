@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_speling.c
+inline
+/*
+* The request should end up looking like this:
+* r->uri: /correct-url/mispelling/more
+* r->filename: /correct-file/mispelling r->path_info: /more
+*
+* So we do this in steps. First break r->filename into two pieces
+*/

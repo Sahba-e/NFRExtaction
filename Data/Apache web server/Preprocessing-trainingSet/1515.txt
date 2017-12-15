@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/lock/locks.c
+inline
+/* refresh all of the direct locks on this resource */

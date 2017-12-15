@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/*
+* This comparison to expose error-notes could be modified to
+* use a configuration directive and export based on that
+* directive. For now "e;*"e; is used to designate an error-notes
+* that is totally safe for any user to see (ie lacks paths,
+* database passwords, etc.)
+*/

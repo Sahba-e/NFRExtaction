@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* Prefetch MAX_MEM_SPOOL bytes
+*
+* This helps us avoid any election of C-L v.s. T-E
+* request bodies, since we are willing to keep in
+* memory this much data, in any case. This gives
+* us an instant C-L election if the body is of some
+* reasonable size.
+*/

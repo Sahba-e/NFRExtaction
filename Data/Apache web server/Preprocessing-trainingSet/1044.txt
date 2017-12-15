@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* Command handler for the NO_ARGS "e;Example"e; directive. All we do is mark the
+* call in the trace log, and flag the applicability of the directive to the
+* current location in that location's configuration record.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/* If this connection didn't match the criteria, then we
+* need to unlock the mutex so it is available to be reused.
+*/

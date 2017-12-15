@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl.c
+
+/*
+* Immediately stop processing if SSL is disabled for this connection
+*/

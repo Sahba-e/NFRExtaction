@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/log.c
+inline
+/*
+* C: log conn log_id if available,
+* c: log conn log id if available and not a once-per-request log line
+* else: log request log id if available
+*/

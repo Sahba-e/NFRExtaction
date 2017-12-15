@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/*
+* Hack because of underpowered API: passing the current
+* rewritten filename through to other URL-to-filename handlers
+* just as it were the requested URL. This is to enable
+* post-processing by mod_alias, etc. which always act on
+* r->uri! The difference here is: We do not try to
+* add the document root
+*/

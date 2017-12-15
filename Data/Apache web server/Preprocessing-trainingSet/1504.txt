@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+inline
+/*
+** Closest thing to a creation date. since we don't actually
+** perform the operations that would modify ctime (after we
+** create the file), then we should be pretty safe here.
+*/

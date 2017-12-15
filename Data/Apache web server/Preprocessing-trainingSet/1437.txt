@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_disk.c
+inline
+/* This assumes that the tempfiles are on the same file system
+* as the cache_root. If not, then we need a file copy/move
+* rather than a rename.
+*/

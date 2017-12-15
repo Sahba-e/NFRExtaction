@@ -1,0 +1,23 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/dbm.c
+header
+/*
+** V4 -- 0.9.9 ..
+** Prior versions could have keys or values with invalid
+** namespace prefixes as a result of the xmlns="e;"e; form not
+** resetting the default namespace to be "e;no namespace"e;. The
+** namespace would be set to "e;"e; which is invalid; it should
+** be set to "e;no namespace"e;.
+**
+** V3 -- 0.9.8
+** Prior versions could have values with invalid namespace
+** prefixes due to an incorrect mapping of input to propdb
+** namespace indices. Version bumped to obsolete the old
+** values.
+**
+** V2 -- 0.9.7
+** This introduced the xml:lang value into the property value's
+** record in the propdb.
+**
+** V1 -- .. 0.9.6
+** Initial version.
+*/

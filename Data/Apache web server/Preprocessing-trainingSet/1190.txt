@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ftp.c
+inline
+/* Reply syntax per RFC 2428: "e;229 blah blah (|||port|)"e; where '|'
+* can be any character in ASCII from 33-126, obscurely. Verify
+* the syntax. */

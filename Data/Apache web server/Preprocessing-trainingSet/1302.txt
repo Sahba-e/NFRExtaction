@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util.c
+member
+/*
+* Here's a pool-based interface to the POSIX-esque ap_regcomp().
+* Note that we return ap_regex_t instead of being passed one.
+* The reason is that if you use an already-used ap_regex_t structure,
+* the memory that you've already allocated gets forgotten, and
+* regfree() doesn't clear it. So we don't allow it.
+*/

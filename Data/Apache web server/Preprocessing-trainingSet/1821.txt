@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_expires.c
+
+/*
+* Output filter to set the Expires response header field
+* according to the content-type of the response -- if it hasn't
+* already been set.
+*/

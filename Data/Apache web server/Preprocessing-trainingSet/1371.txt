@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/netware/mod_nw_ssl.c
+inline
+/* Now that we have removed all of the mod_nw_ssl created socket records,
+allow the normal listen socket handling to occur.
+NOTE: If for any reason mod_nw_ssl is removed as a built-in module,
+the following call must be put back into the pre-config handler of the
+MPM. It is only here to ensure that mod_nw_ssl fixes up the listen
+socket list before anything else looks at it. */

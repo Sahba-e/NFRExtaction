@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* Perform a speculative (and non-blocking) read from the connection
+* filters for the given request, to determine whether there is any
+* pending data to read. Return non-zero if there is, else zero. */

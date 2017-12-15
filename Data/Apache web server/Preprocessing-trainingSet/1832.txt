@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/*
+* Read a numeric value from a pointer, into the value union of a magic
+* pointer, according to the magic type. Update the string pointer to point
+* just after the number read. Return 0 for success, non-zero for failure.
+*/

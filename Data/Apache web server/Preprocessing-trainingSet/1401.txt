@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/*
+* Add cache_save filter to cache this request. Choose
+* the correct filter by checking if we are a subrequest
+* or not.
+*/

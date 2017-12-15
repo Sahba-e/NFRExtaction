@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/protocol.c
+inline
+/* ap_rgetline returns APR_ENOSPC if it fills up the
+* buffer before finding the end-of-line. This is only going to
+* happen if it exceeds the configured limit for a request-line.
+*/

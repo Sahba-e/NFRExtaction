@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/ajp_msg.c
+
+/**
+* Log an AJP message
+*
+* @param request The current request
+* @param msg AJP Message to dump
+* @param err error string to display
+* @return APR_SUCCESS or error
+*/

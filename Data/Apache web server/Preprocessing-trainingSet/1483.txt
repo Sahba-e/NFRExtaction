@@ -1,0 +1,33 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/lock.c
+section
+/*
+** LOCK DATABASES
+**
+** Lockdiscovery information is stored in the single lock database specified
+** by the DAVLockDB directive. Information about this db is stored in the
+** global server configuration.
+**
+** KEY
+**
+** The database is keyed by a key_type unsigned char (DAV_TYPE_FNAME)
+** followed by the full path. The key_type DAV_TYPE_INODE is not used anymore.
+**
+** VALUE
+**
+** The value consists of a list of elements.
+** DIRECT LOCK: [char (DAV_LOCK_DIRECT),
+** char (dav_lock_scope),
+** char (dav_lock_type),
+** int depth,
+** time_t expires,
+** apr_uuid_t locktoken,
+** char[] owner,
+** char[] auth_user]
+**
+** INDIRECT LOCK: [char (DAV_LOCK_INDIRECT),
+** apr_uuid_t locktoken,
+** time_t expires,
+** apr_size_t key_size,
+** char[] key]
+** The key is to the collection lock that resulted in this indirect lock
+*/

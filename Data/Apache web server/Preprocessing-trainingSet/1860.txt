@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/* XXX: since r->uri has been manipulated already we're not really
+* compliant with RFC1945 at this point. But this probably isn't
+* an issue because this is a hybrid proxy/origin server.
+*/

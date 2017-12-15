@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* Perform SNI checks only on the initial request. In particular,
+* if these checks detect a problem, the checks shouldn't return an
+* error again when processing an ErrorDocument redirect for the
+* original problem.
+*/

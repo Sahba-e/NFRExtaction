@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** Whatever caused the error, the Request-URI should have a 424
+** associated with it since we cannot complete the method.
+**
+** For a LOCK operation, insert an empty DAV:lockdiscovery property.
+** For other methods, return a simple 424.
+*/

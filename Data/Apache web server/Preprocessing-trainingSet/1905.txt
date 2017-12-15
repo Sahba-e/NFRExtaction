@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_hcheck.c
+
+/*
+* We use our "e;generic"e; health-check worker instead of the *real*
+* worker, to avoid clashes and conflicts.
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* A bind to the server with an empty password always succeeds, so
+* we check to ensure that the password is not empty. This implies
+* that users who actually do have empty passwords will never be
+* able to authenticate with this module. I don't see this as a big
+* problem.
+*/

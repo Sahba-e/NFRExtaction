@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+section
+/* the next module (if any) that declares the directive is given a chance */

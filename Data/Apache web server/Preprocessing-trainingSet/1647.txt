@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_include.c
+inline
+/* We always return declined, because the default handler actually
+* serves the file. All we have to do is add the filter.
+*/

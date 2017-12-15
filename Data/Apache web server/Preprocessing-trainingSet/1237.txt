@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+member
+/*
+* Optional function coming from mod_access_compat, used to determine how
+access control interacts with authentication/authorization
+*/

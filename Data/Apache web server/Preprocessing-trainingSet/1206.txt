@@ -1,0 +1,18 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session.c
+member
+/**
+* Ensure any changes to the session are committed.
+*
+* This is done in an output filter so that our options for where to
+* store the session can include storing the session within a cookie:
+* As an HTTP header, the cookie must be set before the output is
+* written, but after the handler is run.
+*
+* NOTE: It is possible for internal redirects to cause more than one
+* request to be present, and each request might have a session
+* defined. We need to go through each session in turn, and save each
+* one.
+*
+* The same session might appear in more than one request. The first
+* attempt to save the session will be called
+*/

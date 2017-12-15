@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/* cached maps contain an mtime for the whole map and live in a subpool
+* of the cachep->pool. That makes it easy to forget them if necessary.
+*/

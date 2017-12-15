@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authn_socache.c
+task
+/* FIXME: getting this for NOTFOUND - prolly a bug in mod_socache */

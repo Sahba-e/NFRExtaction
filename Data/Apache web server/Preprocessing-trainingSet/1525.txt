@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* The destination must exist (since it contains the source), and
+* a condition above implies Overwrite==T. Obviously, we cannot
+* delete the Destination before the MOVE/COPY, as that would
+* delete the Source.
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/*
+* Figure out what sort of indexing (if any) we're supposed to use.
+*
+* If no QUERY_STRING was specified or client query strings have been
+* explicitly disabled.
+* If we are ignoring the client, suppress column sorting as well.
+*/

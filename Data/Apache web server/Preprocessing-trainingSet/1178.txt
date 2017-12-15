@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+inline
+/* Check if the balancer is defined in both override and base configs:
+* a) If it is, Create copy of base balancer and change the configuration
+* which can be changed by ProxyPass.
+* b) Otherwise, copy the balancer to tocopy array and merge it later.
+*/

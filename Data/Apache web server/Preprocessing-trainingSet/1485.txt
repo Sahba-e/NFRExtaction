@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/lock.c
+task
+/*
+** We need to reliably size the fixed-length portion of
+** dav_lock_discovery; best to separate it into another
+** struct for a convenient sizeof, unless we pack lock_discovery.
+*/

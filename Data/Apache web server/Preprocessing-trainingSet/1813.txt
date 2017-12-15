@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/*
+* .htaccess file is called before really entering the directory, i.e.:
+* URL: http://localhost/foo and .htaccess is located in foo directory
+* Ignore such attempts, allowing mod_dir to direct the client to the
+* canonical URL. This can be controlled with the AllowNoSlash option.
+*/

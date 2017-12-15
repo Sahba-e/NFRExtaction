@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* Mapping started with assuming both strings matched.
+* Now roll on the path_info as a mismatch and handle
+* terminating slashes for directory matches.
+*/

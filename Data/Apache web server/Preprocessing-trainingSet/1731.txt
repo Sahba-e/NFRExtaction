@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_task.c
+inline
+/* After the call to ap_process_request, the
+* request pool will have been deleted. We set
+* r=NULL here to ensure that any dereference
+* of r that might be added later in this function
+* will result in a segfault immediately instead
+* of nondeterministic failures later.
+*/

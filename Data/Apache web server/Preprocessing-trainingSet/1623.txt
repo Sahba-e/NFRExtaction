@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+inline
+/* XXX yuck, but that tells us to send
+* eos down; when we minimize our bb construction
+* we'll fix this crap */

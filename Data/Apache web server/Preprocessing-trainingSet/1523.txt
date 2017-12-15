@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* This is snarfed from ap_setup_client_block(). We could get pretty
+* close to this behavior by passing REQUEST_NO_BODY, but we need to
+* return HTTP_UNSUPPORTED_MEDIA_TYPE (while ap_setup_client_block
+* returns HTTP_REQUEST_ENTITY_TOO_LARGE). */

@@ -1,0 +1,17 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/core/mod_macro.c
+member
+/*
+The expanded content of the macro is to be parsed as a ap_configfile_t.
+This is used to have some kind of old fashionned C object oriented inherited
+data structure for configs.
+The following struct stores the contents.
+This structure holds pointers (next, upper) to the current "e;file"e; which was
+being processed and is interrupted by the macro expansion. At the end
+of processing the macro, the initial data structure will be put back
+in place (see function next_one) and the reading will go on from there.
+If macros are used within macros, there may be a cascade of such temporary
+arrays used to insert the expanded macro contents before resuming the real
+file processing.
+There is some hopus-pocus to deal with line_number when transiting from
+one config to the other.
+*/

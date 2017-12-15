@@ -1,0 +1,22 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/chunk_filter.c
+inline
+/* RFC 2616, Section 3.6.1
+*
+* If there is an EOS bucket, then prefix it with:
+* 1) the last-chunk marker ("e;0"e; CRLF)
+* 2) the trailer
+* 3) the end-of-chunked body CRLF
+*
+* We only do this if we have not seen an error bucket with
+* status HTTP_BAD_GATEWAY. We have memorized an
+* error bucket that we had seen in the filter context.
+* The error bucket with status HTTP_BAD_GATEWAY indicates that the
+* connection to the backend (mod_proxy) broke in the middle of the
+* response. In order to signal the client that something went wrong
+* we do not create the last-chunk marker and set c->keepalive to
+* AP_CONN_CLOSE in the core output filter.
+*
+* XXX: it would be nice to combine this with the end-of-chunk
+* marker above, but this is a bit more straight-forward for
+* now.
+*/

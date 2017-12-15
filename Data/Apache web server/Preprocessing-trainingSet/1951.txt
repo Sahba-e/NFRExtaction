@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session_dbd.c
+
+/**
+* This function performs housekeeping on the database, deleting expired
+* sessions.
+*/

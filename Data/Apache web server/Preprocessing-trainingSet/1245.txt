@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/listen.c
+inline
+/* if multiple listening sockets, make them non-blocking so that
+* if select()/poll() reports readability for a reset connection that
+* is already forgotten about by the time we call accept, we won't
+* be hung until another connection arrives on that port
+*/

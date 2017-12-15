@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+inline
+/* Location and LocationMatch differ on their behaviour w.r.t. multiple
+* slashes. Location matches multiple slashes with a single slash,
+* LocationMatch doesn't. An exception, for backwards brokenness is
+* absoluteURIs... in which case neither match multiple slashes.
+*/

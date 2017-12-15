@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+inline
+/* If the read returns EAGAIN or success with an empty
+* brigade, return an error after setting the retry flag;
+* SSL_read() will then return -1, and SSL_get_error() will
+* indicate SSL_ERROR_WANT_READ. */

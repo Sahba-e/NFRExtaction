@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine is called to check for any module-specific restrictions placed
+* upon the requested resource. (See the mod_access_compat module for an
+* example.)
+*
+* This is a RUN_ALL hook. The first handler to return a status other than OK
+* or DECLINED (for instance, HTTP_FORBIDDEN) aborts the callback chain.
+*/

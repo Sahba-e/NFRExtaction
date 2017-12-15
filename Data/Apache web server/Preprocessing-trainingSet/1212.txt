@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_ct_util.c
+inline
+/* we don't actually know if data is ready before reading, so
+* this isn't an error
+*/

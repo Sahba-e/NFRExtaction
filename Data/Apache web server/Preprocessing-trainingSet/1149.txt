@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+member
+/*
+* set_encoding_quality determines whether the encoding for a particular
+* variant is acceptable for the user-agent.
+*
+* The rules for encoding are that if the user-agent does not supply
+* any Accept-Encoding header, then all encodings are allowed but a
+* variant with no encoding should be preferred.
+* If there is an empty Accept-Encoding header, then no encodings are
+* acceptable. If there is a non-empty Accept-Encoding header, then
+* any of the listed encodings are acceptable, as well as no encoding
+* unless the "e;identity"e; encoding is specifically excluded.
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine is called after the request has been read but before any other
+* phases have been processed. This allows us to make decisions based upon
+* the input header fields.
+*
+* This is a RUN_ALL hook.
+*/

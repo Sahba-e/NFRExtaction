@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/lua_request.c
+member
+/*
+* lua_ap_runtime_dir_relative: r:runtime_dir_relative(file): Returns the
+* filename as relative to the runtime dir
+*/

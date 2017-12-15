@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/*
+* The blank before the storm.. er, before the next field.
+*/

@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_disk.c
+inline
+/* Note that we could optimize this by conditionally doing the palloc
+* depending upon the size. */

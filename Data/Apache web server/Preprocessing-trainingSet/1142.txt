@@ -1,0 +1,21 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+member
+/*
+* Record of available info on a particular variant
+*
+* Note that a few of these fields are updated by the actual negotiation
+* code. These are:
+*
+* level_matched --- initialized to zero. Set to the value of level
+* if the client actually accepts this media type at that
+* level (and *not* if it got in on a wildcard). See level_cmp
+* below.
+* mime_stars -- initialized to zero. Set to the number of stars
+* present in the best matching Accept header element.
+* 1 for star/star, 2 for type/star and 3 for
+* type/subtype.
+*
+* definite -- initialized to 1. Set to 0 if there is a match which
+* makes the variant non-definite according to the rules
+* in rfc2296.
+*/

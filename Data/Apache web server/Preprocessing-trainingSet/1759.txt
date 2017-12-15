@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/loggers/mod_log_config.c
+
+/*
+* config_log_state holds the status of a single log file. fname might
+* be NULL, which means this module does no logging for this
+* request. format might be NULL, in which case the default_format
+* from the multi_log_state should be used, or if that is NULL as
+* well, use the CLF.
+* log_writer is NULL before the log file is opened and is
+* set to a opaque structure (usually a fd) after it is opened.
+*/

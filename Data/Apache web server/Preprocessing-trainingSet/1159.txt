@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+inline
+/* For rules evaluated in server context, the mod_proxy fixup
+* hook can be relied upon to escape the URI as and when
+* necessary, since it occurs later. If in directory context,
+* the ordering of the fixup hooks is forced such that
+* mod_proxy comes first, so the URI must be escaped here
+* instead. See PR 39746, 46428, and other headaches. */

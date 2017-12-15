@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Since we can't resize the scoreboard when reconfiguring, we
+* have to impose a limit on the number of workers, we are
+* able to reconfigure to.
+*/

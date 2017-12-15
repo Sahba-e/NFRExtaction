@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_util.c
+inline
+/* Remove the user defined headers set with CacheIgnoreHeaders.
+* This may break RFC 2616 compliance on behalf of the administrator.
+*/

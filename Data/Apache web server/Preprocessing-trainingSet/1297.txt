@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+task
+/* XXX: Better (faster) tests needed!!!
+*
+* "e;OK"e; as a response to a real problem is not _OK_, but to allow broken
+* modules to proceed, we will permit the not-a-path filename to pass the
+* following two tests. This behavior may be revoked in future versions
+* of Apache. We still must catch it later if it's heading for the core
+* handler. Leave INFO notes here for module debugging.
+*/

@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap_cache_mgr.c
+
+/* if the purge was not effective, we leave now to avoid an overflow */

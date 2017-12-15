@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* The order the callbacks are invoked from TLS extensions is, unfortunately
+* not defined and older openssl versions do call ALPN selection before
+* they callback the SNI. We need to make sure that we know which vhost
+* we are dealing with so we respect the correct protocols.
+*/

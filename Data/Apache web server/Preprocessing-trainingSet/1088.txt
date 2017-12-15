@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_etag.c
+inline
+/* if the variant list validator is weak, we make the whole
+* structured etag weak. If we would not, then clients could
+* have problems merging range responses if we have different
+* variants with the same non-globally-unique strong etag.
+*/

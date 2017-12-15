@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/*
+* try tests in /etc/magic (or surrogate magic file)
+*/

@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_ldap.c
+member
+/*
+* Authentication Phase
+* --------------------
+*
+* This phase authenticates the credentials the user has sent with
+* the request (ie the username and password are checked). This is done
+* by making an attempt to bind to the LDAP server using this user's
+* DN and the supplied password.
+*
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_util_ssl.c
+inline
+/*
+* Repeat the calls, because SSL_shutdown internally dispatches through a
+* little state machine. Usually only one or two interation should be
+* needed, so we restrict the total number of restrictions in order to
+* avoid process hangs in case the client played bad with the socket
+* connection and OpenSSL cannot recognize it.
+*/

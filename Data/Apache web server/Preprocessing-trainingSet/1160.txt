@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+inline
+/* Special Rewriting Feature: Self-Reduction
+* We reduce the URL by stripping a possible
+* http[s]://<ourhost>[:<port>] prefix, i.e. a prefix which
+* corresponds to ourself. This is to simplify rewrite maps
+* and to avoid recursion, etc. When this prefix is not a
+* coincidence then the user has to use [R] explicitly (see
+* above).
+*/

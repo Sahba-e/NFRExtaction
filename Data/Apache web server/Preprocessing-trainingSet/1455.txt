@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_file_cache.c
+task
+/* If it's one of ours, fill in r->finfo now to avoid extra stat()... this is a
+* bit of a kludge, because we really want to run after core_translate runs.
+*/

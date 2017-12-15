@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_wstunnel.c
+
+/* Avoid sending error pages down an upgraded connection */

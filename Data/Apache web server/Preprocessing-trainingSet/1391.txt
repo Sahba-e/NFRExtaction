@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/* if Cache-Control: only-if-cached, and not cached, return 504 */

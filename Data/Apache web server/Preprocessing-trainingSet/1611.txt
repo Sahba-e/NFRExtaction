@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+inline
+/*
+* Log the call and return OK, or access will be denied (even though we
+* didn't actually do anything).
+*/

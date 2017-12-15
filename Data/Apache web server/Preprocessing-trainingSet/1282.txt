@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/worker/worker.c
+inline
+/* A terminating signal was received. Now join each of the
+* workers to clean them up.
+* If the worker already exited, then the join frees
+* their resources and returns.
+* If the worker hasn't exited, then this blocks until
+* they have (then cleans up).
+*/

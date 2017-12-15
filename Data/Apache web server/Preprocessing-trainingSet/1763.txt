@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/lua_dbd.c
+
+/*
+=============================================================================
+dbacquire(dbType, dbString): Opens a new connection to a database of type
+_dbType_ and with the connection parameters _dbString_. If successful,
+returns a table with functions for using the database handle. If an error
+occurs, returns nil as the first parameter and the error message as the
+second. See the APR_DBD for a list of database types and connection strings
+supported.
+=============================================================================
+*/

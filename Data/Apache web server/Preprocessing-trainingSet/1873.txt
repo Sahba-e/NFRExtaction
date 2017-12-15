@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+
+/*
+* RFC2616 (9.1.2): GET, HEAD, PUT, DELETE, OPTIONS, TRACE are considered
+* idempotent. Hint: HEAD requests use M_GET as method number as well.
+*/

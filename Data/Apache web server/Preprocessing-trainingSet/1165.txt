@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+member
+/*
+* softmagic - lookup one file in database (already read from /etc/magic by
+* apprentice.c). Passed the name and FILE * of one file to be typed.
+*/

@@ -1,0 +1,22 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/* X-Forwarded-*: handling
+*
+* XXX Privacy Note:
+* -----------------
+*
+* These request headers are only really useful when the mod_proxy
+* is used in a reverse proxy configuration, so that useful info
+* about the client can be passed through the reverse proxy and on
+* to the backend server, which may require the information to
+* function properly.
+*
+* In a forward proxy situation, these options are a potential
+* privacy violation, as information about clients behind the proxy
+* are revealed to arbitrary servers out there on the internet.
+*
+* The HTTP/1.1 Via: header is designed for passing client
+* information through proxies to a server, and should be used in
+* a forward proxy configuation instead of X-Forwarded-*. See the
+* ProxyVia option for details.
+*/

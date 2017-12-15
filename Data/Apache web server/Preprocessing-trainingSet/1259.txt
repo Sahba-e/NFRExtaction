@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/motorz/motorz.c
+inline
+/* kludge to avoid crash in APR reslist cleanup code */

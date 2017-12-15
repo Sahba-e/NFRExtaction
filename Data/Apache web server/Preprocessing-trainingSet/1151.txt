@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/*
+* Find the 'best' variant
+* We run the loop possibly twice: if "e;prefer-language"e;
+* environment variable is set but we did not find an appropriate
+* best variant. In that case forget the preferred language and
+* negotiate over all variants.
+*/

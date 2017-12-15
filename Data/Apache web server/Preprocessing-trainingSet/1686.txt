@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/* kludge around broken browsers when indicated by force-response-1.0
+*/

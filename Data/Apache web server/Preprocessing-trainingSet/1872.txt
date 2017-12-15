@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/* fixup before mod_rewrite, so that the proxied url will not
+* escaped accidentally by our fixup.
+*/

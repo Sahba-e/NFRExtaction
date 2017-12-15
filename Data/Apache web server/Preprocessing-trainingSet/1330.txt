@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_fcgi.c
+inline
+/* When the application gives a 200 response, the server ignores response
+headers whose names aren't prefixed with Variable- prefix, and ignores
+any response content */

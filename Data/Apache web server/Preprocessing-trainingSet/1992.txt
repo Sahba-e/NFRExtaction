@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* Check for optionally acceptable non-verifiable issuer situation
+*/

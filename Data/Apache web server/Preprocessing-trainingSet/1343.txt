@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authn_dbd.c
+inline
+/* we can't break out here or row won't get cleaned up */

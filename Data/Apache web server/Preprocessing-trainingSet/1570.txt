@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** If we have a serious server error, or if the request itself failed,
+** then just return error (not a multistatus).
+*/

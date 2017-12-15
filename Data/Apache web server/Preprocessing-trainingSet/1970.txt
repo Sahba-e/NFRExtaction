@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/*
+* The case where the connection was closed before any data
+* was transferred. That's not a real error and can occur
+* sporadically with some clients.
+*/

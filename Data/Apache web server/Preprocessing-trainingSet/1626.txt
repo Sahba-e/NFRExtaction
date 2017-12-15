@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_data.c
+inline
+/* fill up and write out our overflow buffer if partially used */

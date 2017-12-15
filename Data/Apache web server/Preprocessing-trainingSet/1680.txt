@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_status.c
+task
+/* ugh... need to know if we're running with a pthread implementation
+* such as linuxthreads that treats individual threads as distinct
+* processes; that affects how we add up CPU time in a process
+*/

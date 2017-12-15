@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/*
+* The following takes care of Apache redirects to custom response URLs
+* Note that if we are already dealing with the response to some other
+* error condition, we just report on the original error, and give up on
+* any attempt to handle the other thing "e;intelligently"e;...
+*/

@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* perform no close notify handshake at all
+(violates the SSL/TLS standard!) */

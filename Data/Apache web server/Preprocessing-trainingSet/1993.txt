@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* downstream server didn't send us a list of acceptable CA certs,
+* so we send the first client cert in the list.
+*/

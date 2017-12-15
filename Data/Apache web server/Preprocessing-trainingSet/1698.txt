@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+task
+/* ### this is rather annoying. we should enforce registration of
+### these methods */

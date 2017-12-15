@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+inline
+/* Hmm. We've run through the filter init before as we have a ctx,
+* but we never initialized. We probably have a dangling ref. Bail.
+*/

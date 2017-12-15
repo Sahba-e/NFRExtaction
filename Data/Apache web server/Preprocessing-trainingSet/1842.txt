@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_setenvif.c
+
+/* Optimize the case where a bunch of directives in a row use the
+* same header. Remember we don't need to strcmp the two header
+* names because we made sure the pointers were equal during
+* configuration.
+*/

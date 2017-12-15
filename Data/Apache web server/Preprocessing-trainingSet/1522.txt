@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* Ensure that we think the resource exists now.
+* ### eek. if an error occurred during the write and we did not commit,
+* ### then the resource might NOT exist (e.g. dav_fs_repos.c)
+*/

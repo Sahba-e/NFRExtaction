@@ -1,0 +1,20 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Finding languages. The main entry point is set_language_quality()
+* which is called for each variant. It sets two elements in the
+* variant record:
+* language_quality - the 'q' value of the 'best' matching language
+* from Accept-Language: header (HTTP/1.1)
+* lang_index - Non-negotiated language priority, using
+* position of language on the Accept-Language:
+* header, if present, else LanguagePriority
+* directive order.
+*
+* When we do the variant checking for best variant, we use language
+* quality first, and if a tie, language_index next (this only applies
+* when _not_ using the RVSA/1.0 algorithm). If using the RVSA/1.0
+* algorithm, lang_index is never used.
+*
+* set_language_quality() calls find_lang_index() and find_default_index()
+* to set lang_index.
+*/

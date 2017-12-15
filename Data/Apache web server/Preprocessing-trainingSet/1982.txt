@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* If "e;SSLEngine optional"e; is configured, this is not an SSL
+* connection, and this isn't a subrequest, send an Upgrade
+* response header. Note this must happen before map_to_storage
+* and OPTIONS * request processing is completed.
+*/

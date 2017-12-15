@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/core/mod_so.c
+inline
+/*
+* check for already existing module
+* If it already exists, we have nothing to do
+* Check both dynamically-loaded modules and statically-linked modules.
+*/

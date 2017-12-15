@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+task
+/* ### need a general mechanism for reporting precondition violations
+* ### (should be returning XML document for 403/409 responses)
+*/

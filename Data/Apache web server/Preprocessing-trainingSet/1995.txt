@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* Adjust the session id context. ssl_init_ssl_connection()
+* always picks the configuration of the first vhost when
+* calling SSL_new(), but we want to tie the session to the
+* vhost we have just switched to. Again, we have to make sure
+* that we're not overwriting a session id context which was
+* possibly set in ssl_hook_Access(), before triggering
+* a renegotiation.
+*/

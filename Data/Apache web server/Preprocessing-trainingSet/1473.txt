@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/dbm.c
+member
+/* -------------------------------------------------------------------------
+*
+* GENERIC DBM ACCESS
+*
+* For the most part, this just uses the APR DBM functions. They are wrapped
+* a bit with some error handling (using the mod_dav error functions).
+*/

@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/* MIME_MAGIC_DEBUG */

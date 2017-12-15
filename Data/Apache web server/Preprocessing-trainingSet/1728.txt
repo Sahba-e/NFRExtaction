@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_session.c
+inline
+/* Unsent push promises are written immediately, as nghttp2
+* 1.5.0 realizes internal stream data structures only on
+* send and we might need them for other submits.
+* Also, to conserve memory, we send at least every 10 submits
+* so that nghttp2 does not buffer all outbound items too
+* long.
+*/

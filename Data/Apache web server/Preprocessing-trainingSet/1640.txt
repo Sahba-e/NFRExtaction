@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_filter.c
+inline
+/** IG: Add a NULL provider to the beginning so that
+* we can ensure that we'll empty everything before
+* this when doing config merges later */

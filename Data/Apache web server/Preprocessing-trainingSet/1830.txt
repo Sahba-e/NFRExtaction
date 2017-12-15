@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/*
+* parse one line from magic file, put into magic[index++] if valid
+*/

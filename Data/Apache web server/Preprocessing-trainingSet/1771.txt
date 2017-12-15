@@ -1,0 +1,19 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+member
+/*
+* parse quality value. atof(3) is not well-usable here, because it
+* depends on the locale (argh).
+*
+* However, RFC 2616 states:
+* 3.9 Quality Values
+*
+* [...] HTTP/1.1 applications MUST NOT generate more than three digits
+* after the decimal point. User configuration of these values SHOULD also
+* be limited in this fashion.
+*
+* qvalue = ( "e;0"e; [ "e;."e; 0*3DIGIT ] )
+* | ( "e;1"e; [ "e;."e; 0*3("e;0"e;) ] )
+*
+* This is quite easy. If the supplied string doesn't match the above
+* definition (loosely), we simply return 1 (same as if there's no qvalue)
+*/

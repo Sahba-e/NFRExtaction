@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+inline
+/* Perform TLS upgrade here if "e;SSLEngine optional"e; is configured,
+* SSL is not already set up for this connection, and the client
+* has sent a suitable Upgrade header. */

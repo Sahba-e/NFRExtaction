@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_unique_id.c
+
+/*
+* There are two ways the generation of a unique id can be triggered:
+*
+* - from the post_read_request hook which calls set_unique_id()
+* - from error logging via the generate_log_id hook which calls
+* generate_log_id(). This may happen before or after set_unique_id()
+* has been called, or not at all.
+*/

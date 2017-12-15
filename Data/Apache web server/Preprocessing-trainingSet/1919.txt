@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/*
+* Use a shorter-lived pool to reduce memory usage
+* and avoid a memory leak
+*/

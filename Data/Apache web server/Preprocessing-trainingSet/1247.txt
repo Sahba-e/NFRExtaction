@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/log.c
+inline
+/*
+* Now that we have dup'ed s_main->error_log to stderr_log
+* close it and set s_main->error_log to stderr_log. This avoids
+* this fd being inherited by the next piped logger who would
+* keep open the writing end of the pipe that this one uses
+* as stdin. This in turn would prevent the piped logger from
+* exiting.
+*/

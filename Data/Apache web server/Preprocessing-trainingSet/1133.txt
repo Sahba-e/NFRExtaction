@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* If we are using shared memory caching and the cache file already
+* exists then delete it. Otherwise we are going to run into problems
+* creating the shared memory.
+*/

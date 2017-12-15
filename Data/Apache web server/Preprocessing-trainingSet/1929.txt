@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Determine (i.e., "e;guess"e;) netmask by counting the
+* number of trailing .0's; reduce #quads appropriately
+* (so that 192.168.0.0 is equivalent to 192.168.)
+*/

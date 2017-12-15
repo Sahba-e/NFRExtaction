@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_speling.c
+
+/* Wow... we found us a mispelling. Construct a fixed url */

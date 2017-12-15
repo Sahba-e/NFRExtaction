@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+inline
+/*
+* We are using a name based configuration here, but no hostname was
+* provided via SNI. Don't allow that if are requested to do strict
+* checking. Check whether this strict checking was set up either in the
+* server config we used for handshaking or in our current server.
+* This should avoid insecure configuration by accident.
+*/

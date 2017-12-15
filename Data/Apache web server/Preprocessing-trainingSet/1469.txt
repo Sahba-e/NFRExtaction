@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/database/mod_dbd.c
+inline
+/* The driver is loaded at config time now, so this just checks a hash.
+* If that changes, the driver DSO could be registered to unload against
+* our pool, which is probably not what we want. Error checking isn't
+* necessary now, but in case that changes in the future ...
+*/

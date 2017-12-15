@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* assert: conf->provider_name != NULL
+(otherwise, DAV is disabled, and we wouldn't be here) */

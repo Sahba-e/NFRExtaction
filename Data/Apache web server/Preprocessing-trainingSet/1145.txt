@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/*
+* mod_mime will _always_ provide us the base name in the
+* ap-mime-exception-list, if it processed anything. If
+* this list is empty, give up immediately, there was
+* nothing interesting. For example, looking at the files
+* readme.txt and readme.foo, we will throw away .foo if
+* it's an insignificant file (e.g. did not identify a
+* language, charset, encoding, content type or handler,)
+*/

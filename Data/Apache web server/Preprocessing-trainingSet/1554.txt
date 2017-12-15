@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+code
+/* DBG3("e;dav_new_error: %d %d %s"e;, status, error_id, desc ? desc : "e;(no desc)"e;); */

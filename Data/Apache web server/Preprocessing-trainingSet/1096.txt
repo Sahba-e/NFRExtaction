@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/mod_mime.c
+member
+/*
+* find_ct is the hook routine for determining content-type and other
+* MIME-related metadata. It assumes that r->filename has already been
+* set and stat has been called for r->finfo. It also assumes that the
+* non-path base file name is not the empty string unless it is a dir.
+*/

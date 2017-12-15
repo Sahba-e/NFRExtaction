@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/htcacheclean.c
+inline
+/* before daemonizing, so we
+* can report errors
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_userdir.c
+member
+/*
+* Server config for this module: global disablement flag, a list of usernames
+* ineligible for UserDir access, a list of those immune to global (but not
+* explicit) disablement, and the replacement string for all others.
+*/

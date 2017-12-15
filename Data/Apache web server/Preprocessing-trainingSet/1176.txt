@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+inline
+/* Recoverable server error.
+* We can failover to another worker
+* Mark the worker as unusable if member of load balancer
+*/

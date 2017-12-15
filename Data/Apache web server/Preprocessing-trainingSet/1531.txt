@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* ### RFC 2518 s. 8.11: If this resource is locked by locktoken,
+* _all_ resources locked by locktoken are released. It does not say
+* resource has to be the root of an infinte lock. Thus, an UNLOCK
+* on any part of an infinte lock will remove the lock on all resources.
+*
+* For us, if r->filename represents an indirect lock (part of an infinity lock),
+* we must actually perform an UNLOCK on the direct lock for this resource.
+*/

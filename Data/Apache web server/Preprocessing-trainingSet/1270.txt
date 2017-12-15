@@ -1,0 +1,30 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/mpm_winnt.c
+header
+/*
+* Signalling Apache on NT.
+*
+* Under Unix, Apache can be told to shutdown or restart by sending various
+* signals (HUP, USR, TERM). On NT we don't have easy access to signals, so
+* we use "e;events"e; instead. The parent apache process goes into a loop
+* where it waits forever for a set of events. Two of those events are
+* called
+*
+* apPID_shutdown
+* apPID_restart
+*
+* (where PID is the PID of the apache parent process). When one of these
+* is signalled, the Apache parent performs the appropriate action. The events
+* can become signalled through internal Apache methods (e.g. if the child
+* finds a fatal error and needs to kill its parent), via the service
+* control manager (the control thread will signal the shutdown event when
+* requested to stop the Apache service), from the -k Apache command line,
+* or from any external program which finds the Apache PID from the
+* httpd.pid file.
+*
+* The signal_parent() function, below, is used to signal one of these events.
+* It can be called by any child or parent process, since it does not
+* rely on global variables.
+*
+* On entry, type gives the event to signal. 0 means shutdown, 1 means
+* graceful restart.
+*/

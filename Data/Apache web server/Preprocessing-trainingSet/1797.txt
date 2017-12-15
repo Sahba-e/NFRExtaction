@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* We can't be transparent, because of internal
+* assumptions in best_match(), if there is a
+* non-neighboring variant. We can have a non-neighboring
+* variant when processing a type map.
+*/

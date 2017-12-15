@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* Handle the ForceDefaultLanguage overrides, based on the best match
+* to LanguagePriority order. The best match is the lowest index of
+* any LanguagePriority match.
+*/

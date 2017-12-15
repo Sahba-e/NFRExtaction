@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* We have a status in r->status, so let's just use it.
+* This is likely to be the Status: parsed above, and
+* may also be a delayed error result from the parser.
+* If it was filled in, status_line should also have
+* been filled in.
+*/

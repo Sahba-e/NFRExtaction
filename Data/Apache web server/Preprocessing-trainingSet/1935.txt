@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Taken from ap_strcmp_match() :
+* Match = 0, NoMatch = 1, Abort = -1, Inval = -2
+* Based loosely on sections of wildmat.c by Rich Salz
+* Hmmm... shouldn't this really go component by component?
+*
+* Adds handling of the "e;\<any>"e; => "e;<any>"e; unescaping.
+*/

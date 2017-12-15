@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_expires.c
+
+/* expecting the add_* routines to be case-hardened this
+* is just a reminder that module is beta
+*/

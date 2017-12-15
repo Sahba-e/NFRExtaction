@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/balancers/mod_lbmethod_byrequests.c
+task
+/*
+* How to add additional lbmethods:
+* 1. Create func which determines "e;best"e; candidate worker
+* (eg: find_best_bytraffic, above)
+* 2. Register it as a provider.
+*/

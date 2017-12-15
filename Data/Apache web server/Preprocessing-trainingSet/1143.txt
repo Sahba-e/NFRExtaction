@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* You want case insensitive,
+* you'll *get* case insensitive.
+*/

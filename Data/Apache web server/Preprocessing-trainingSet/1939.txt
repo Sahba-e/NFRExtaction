@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* The worker is in error likely done by a different thread / process
+* e.g. for a timeout or bad status. We should respect this and should
+* not continue with a connection via this worker even if we got one.
+*/

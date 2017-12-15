@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/ajp_msg.c
+
+/**
+* Dump the given number of bytes on an AJP Message
+*
+* @param pool pool to allocate from
+* @param msg AJP Message to dump
+* @param err error string to display
+* @param count the number of bytes to dump
+* @param buf buffer pointer for dump message
+* @return APR_SUCCESS or error
+*/

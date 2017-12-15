@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** If the dummy_header did not match, then they specified an
+** incorrect token in the Lock-Token header. Forget whether the
+** If: statement matched or not... we'll tell them about the
+** bad Lock-Token first. That is considered a 400 (Bad Request).
+*/

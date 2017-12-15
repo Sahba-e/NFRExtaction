@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_util_stapling.c
+member
+/* Certificate Status callback. This is called when a client includes a
+* certificate status request extension.
+*
+* Check for cached responses in session cache. If valid send back to
+* client. If absent or no longer valid, query responder and update
+* cache.
+*/

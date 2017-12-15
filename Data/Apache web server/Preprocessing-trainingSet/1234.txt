@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+inline
+/*
+* left as NULL (we use apr_pcalloc):
+* conf->limit_cpu = NULL;
+* conf->limit_mem = NULL;
+* conf->limit_nproc = NULL;
+* conf->sec_file = NULL;
+* conf->sec_if = NULL;
+*/

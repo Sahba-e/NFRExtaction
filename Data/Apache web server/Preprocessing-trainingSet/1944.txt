@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/* Cleanup the brigade now to avoid buckets lifetime
+* issues in case of error returned below. */

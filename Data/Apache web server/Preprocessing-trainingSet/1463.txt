@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/core/mod_macro.c
+member
+/*
+perform substitutions in a macro contents and
+return the result as a newly allocated array, if result is defined.
+may also return an error message.
+passes used down to substitute_macro_args.
+*/

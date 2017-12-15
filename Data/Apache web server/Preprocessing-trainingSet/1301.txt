@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+inline
+/* Test the regex, fnmatch or string as appropriate.
+* If it's a strcmp, and the <Location > pattern was
+* not slash terminated, then this uri must be slash
+* terminated (or at the end of the string) to match.
+*/

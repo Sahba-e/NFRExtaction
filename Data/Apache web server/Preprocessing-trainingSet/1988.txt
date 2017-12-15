@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* XXX: Should replace setting state with SSL_renegotiate(ssl);
+* However, this causes failures in perl-framework currently,
+* perhaps pre-test if we have already negotiated?
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_socache_shmcb.c
+task
+/* HERE WE ASSUME THAT THE NEW ENTRY SHOULD GO ON THE END! I'M NOT
+* CHECKING WHETHER IT SHOULD BE GENUINELY "e;INSERTED"e; SOMEWHERE.
+*
+* We aught to fix that. httpd (never mind third party modules)
+* does not promise to perform any processing in date order
+* (c.f. FAQ "e;My log entries are not in date order!"e;)
+*/

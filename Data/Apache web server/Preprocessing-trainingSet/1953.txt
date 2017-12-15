@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/slotmem/mod_slotmem_shm.c
+
+/*
+* TODO: Error check the below... What error makes
+* sense if the restore fails? Any?
+*/

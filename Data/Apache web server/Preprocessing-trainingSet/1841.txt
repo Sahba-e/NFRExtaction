@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_setenvif.c
+
+/*
+* This routine gets called at two different points in request processing:
+* once before the URI has been translated (during the post-read-request
+* phase) and once after (during the header-parse phase). We use different
+* config records for the two different calls to reduce overhead (by not
+* re-doing the server-wide settings during directory processing), and
+* signal which call it is by having the earlier one pass a flag to the
+* later one.
+*/

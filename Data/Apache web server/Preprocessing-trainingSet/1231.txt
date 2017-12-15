@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/config.c
+inline
+/* If the directive in error has already been set, don't
+* replace it. Otherwise, an error inside a container
+* will be reported as occuring on the first line of the
+* container.
+*/

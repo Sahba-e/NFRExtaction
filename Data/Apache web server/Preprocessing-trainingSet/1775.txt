@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* First, default to no TCN, no Alternates, and the original Apache
+* negotiation algorithm with fiddles for broken browser configs.
+*
+* To save network bandwidth, we do not configure to send an
+* Alternates header to the user agent by default. User
+* agents that want an Alternates header for agent-driven
+* negotiation will have to request it by sending an
+* appropriate Negotiate header.
+*/

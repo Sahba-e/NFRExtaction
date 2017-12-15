@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/props.c
+inline
+/*
+** Use HTTP_INTERNAL_SERVER_ERROR because we shouldn't have seen
+** any errors at this point.
+*/

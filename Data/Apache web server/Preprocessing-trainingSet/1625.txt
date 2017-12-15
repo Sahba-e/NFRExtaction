@@ -1,0 +1,20 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_data.c
+member
+/**
+* Create a data URL as follows:
+*
+* data:[<mime-type>;][charset=<charset>;]base64,<payload>
+*
+* Where:
+*
+* mime-type: The mime type of the original response.
+* charset: The optional character set corresponding to the mime type.
+* payload: A base64 version of the response body.
+*
+* The content type of the response is set to text/plain.
+*
+* The Content-Length header, if present, is updated with the new content
+* length based on the increase in size expected from the base64 conversion.
+* If the Content-Length header is too large to fit into an int, we remove
+* the Content-Length header instead.
+*/

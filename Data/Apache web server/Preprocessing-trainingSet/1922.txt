@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_wstunnel.c
+
+/* If neither socket becomes readable in the specified timeout,
+* this callback will kill the request. We do not have to worry about
+* having a cancel and a IO both queued.
+*/

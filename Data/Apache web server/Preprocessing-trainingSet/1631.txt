@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+inline
+/* If the entire Content-Encoding is "e;identity"e;, we can replace it. */

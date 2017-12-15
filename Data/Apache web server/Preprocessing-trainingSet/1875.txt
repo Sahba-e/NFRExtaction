@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+
+/* If we had a successful cping/cpong and then a timeout
+* we assume it is a request that cause a back-end timeout,
+* but doesn't affect the whole worker.
+*/

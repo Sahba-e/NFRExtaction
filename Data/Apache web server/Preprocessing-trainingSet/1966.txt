@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/*
+* Close the SSL part of the socket connection
+* (called immediately _before_ the socket is closed)
+* or called with
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+inline
+/*
+* Zlib initialization worked, so we can now change the important
+* content metadata before sending the response out.
+*/

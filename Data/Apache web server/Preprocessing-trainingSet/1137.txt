@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/mod_lua.c
+member
+/**
+* error reporting if lua has an error.
+* Extracts the error from lua stack and prints
+*/

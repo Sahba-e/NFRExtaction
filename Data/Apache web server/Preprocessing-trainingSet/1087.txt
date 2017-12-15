@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_etag.c
+inline
+/* If we have a variant list validator (vlv) due to the
+* response being negotiated, then we create a structured
+* entity tag which merges the variant etag with the variant
+* list validator (vlv). This merging makes revalidation
+* somewhat safer, ensures that caches which can deal with
+* Vary will (eventually) be updated if the set of variants is
+* changed, and is also a protocol requirement for transparent
+* content negotiation.
+*/

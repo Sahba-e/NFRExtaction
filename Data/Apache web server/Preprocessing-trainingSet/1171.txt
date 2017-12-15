@@ -1,0 +1,19 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/balancers/mod_lbmethod_bytraffic.c
+member
+/*
+* The idea behind the find_best_bytraffic scheduler is the following:
+*
+* We know the amount of traffic (bytes in and out) handled by each
+* worker. We normalize that traffic by each workers' weight. So assuming
+* a setup as below:
+*
+* worker a b c
+* lbfactor 1 1 3
+*
+* the scheduler will allow worker c to handle 3 times the
+* traffic of a and b. If each request/response results in the
+* same amount of traffic, then c would be accessed 3 times as
+* often as a or b. If, for example, a handled a request that
+* resulted in a large i/o bytecount, then b and c would be
+* chosen more often, to even things out.
+*/

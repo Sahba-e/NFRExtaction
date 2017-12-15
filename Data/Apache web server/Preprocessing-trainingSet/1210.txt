@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl_ct.c
+inline
+/* Ensure that we already have, or can fetch, fresh SCTs for each
+* certificate. If so, start the daemon to maintain these and let
+* startup continue. (Otherwise abort startup.)
+*
+* Except when we start up as root. We don't want to run external
+* certificate-transparency tools as root, and we don't want to have
+* to fix up the permissions of everything we created so that the
+* SCT maintenance daemon can continue to maintain the SCTs as the
+* configured User/Group.
+*/

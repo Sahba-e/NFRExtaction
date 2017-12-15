@@ -1,0 +1,24 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+member
+/* xlate_brigade() is used to filter request and response bodies
+*
+* we'll stop when one of the following occurs:
+* . we run out of buckets
+* . we run out of space in the output buffer
+* . we hit an error or metadata
+*
+* inputs:
+* bb: brigade to process
+* buffer: storage to hold the translated characters
+* buffer_avail: size of buffer
+* (and a few more uninteresting parms)
+*
+* outputs:
+* return value: APR_SUCCESS or some error code
+* bb: we've removed any buckets representing the
+* translated characters; the eos bucket, if
+* present, will be left in the brigade
+* buffer: filled in with translated characters
+* buffer_avail: updated with the bytes remaining
+* hit_eos: did we hit an EOS bucket?
+*/

@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+inline
+/* 2518 requires the entire lock to be removed if resource/locktoken
+* point to an indirect lock. We need resource of the _direct_
+* lock in order to walk down the tree and remove the locks. So,
+* If locktoken != null_locktoken,
+* Walk up the resource hierarchy until we see a direct lock.
+* Or, we could get the direct lock's db/key, pick out the URL
+* and do a subrequest. I think walking up is faster and will work
+* all the time.
+* Else
+* Just start removing all locks at and below resource.
+*/

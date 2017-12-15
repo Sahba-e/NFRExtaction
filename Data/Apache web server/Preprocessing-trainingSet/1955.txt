@@ -1,0 +1,37 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl_ct.c
+
+/* a server's SCT-related storage on disk:
+*
+* <rootdir>/<fingerprint>/servercerts.pem
+* Concatenation of leaf certificate and any
+* configured intermediate certificates
+*
+* <rootdir>/<fingerprint>/logs
+* List of log URLs, one per line; this is
+* used to recognize when a log URL configuration
+* change makes our current SCT set invalid
+*
+* <rootdir>/<fingerprint>/AUTO_hostname_port_uri.sct
+* SCT for cert with this fingerprint
+* from this log (could be any number
+* of these)
+*
+* <rootdir>/<fingerprint>/<anything>.sct
+* (file is optional; could be any number
+* of these; should not start with "e;AUTO_"e;)
+* Note that the administrator should store
+* statically maintained SCTs in a different
+* directory for the server certificate (specified
+* by the CTStaticSCTs directive). A hypothetical
+* external mechanism for maintaining SCTs following
+* some other model could store them here for use
+* by the server.
+*
+* <rootdir>/<fingerprint>/collated
+* one or more SCTs ready to send
+* (this is all that the web server
+* processes care about)
+*
+* Additionally, the CTStaticSCTs directive specifies a certificate-
+* specific directory of statically-maintained SCTs to be sent.
+*/

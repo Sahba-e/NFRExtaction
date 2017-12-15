@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/protocol.c
+inline
+/* ensure ap_escape_html will terminate correctly */

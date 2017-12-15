@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+inline
+/*
+* This is only non fatal when the method is idempotent. In this
+* case we can dare to retry it with a different worker if we are
+* a balancer member.
+*/

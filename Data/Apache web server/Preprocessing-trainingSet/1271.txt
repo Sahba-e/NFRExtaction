@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/mpm_winnt.c
+section
+/*
+* Initialise the signal names, in the global variables signal_name_prefix,
+* signal_restart_name and signal_shutdown_name.
+*/

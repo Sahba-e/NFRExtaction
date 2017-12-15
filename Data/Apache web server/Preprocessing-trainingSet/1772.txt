@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* be tolerant and accept qvalues without leading zero
+* (also for backwards compat, where atof() was in use)
+*/

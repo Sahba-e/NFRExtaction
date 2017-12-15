@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util.c
+member
+/* Some twisted character [no pun intended] at MS decided that a
+* zero width joiner as the lead wide character would be ideal for
+* describing Unicode text files. This was further convoluted to
+* another MSism that the same character mapped into utf-8, EF BB BF
+* would signify utf-8 text files.
+*
+* Since MS configuration files are all protecting utf-8 encoded
+* Unicode path, file and resource names, we already have the correct
+* WinNT encoding. But at least eat the stupid three bytes up front.
+*/

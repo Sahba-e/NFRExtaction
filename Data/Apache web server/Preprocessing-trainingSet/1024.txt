@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/debugging/mod_firehose.c
+inline
+/* if an error was received, bail out now. If the error is
+* EAGAIN and we have not yet seen an EOS, we will definitely
+* be called again, at which point we will send our buffered
+* data. Instead of sending EAGAIN, some filters return an
+* empty brigade instead when data is not yet available. In
+* this case, pass through the APR_SUCCESS and emulate the
+* underlying filter.
+*/

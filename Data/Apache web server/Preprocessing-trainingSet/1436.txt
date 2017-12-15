@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/*
+* CACHE_OUT_SUBREQ must go into the filter chain before SUBREQ_CORE to
+* handle subrequsts. Decrementing filter type by 1 ensures this
+* happens.
+*/

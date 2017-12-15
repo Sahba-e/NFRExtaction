@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Reading RFC822-style header lines, ignoring #-comments and
+* handling continuations.
+*/

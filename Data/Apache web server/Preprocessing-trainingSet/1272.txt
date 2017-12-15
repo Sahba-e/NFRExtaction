@@ -1,0 +1,17 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/mpm_winnt.c
+task
+/* Handle the following SCM aspects in this phase:
+*
+* -k runservice [transition in service context only]
+* -k install
+* -k config
+* -k uninstall
+* -k stop
+* -k shutdown (same as -k stop). Maintained for backward compatability.
+*
+* We can't leave this phase until we know our identity
+* and modify the command arguments appropriately.
+*
+* We do not care if the .conf file exists or is parsable when
+* attempting to stop or uninstall a service.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_socache_shmcb.c
+task
+/* Perform the iteration inside the mutex to avoid corruption or invalid
+* pointer arithmetic. The rest of our logic uses read-only header data so
+* doesn't need the lock. */

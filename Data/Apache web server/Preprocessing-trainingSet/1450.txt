@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_socache.c
+inline
+/* Allocate and initialize cache_object_t and cache_socache_object_t */

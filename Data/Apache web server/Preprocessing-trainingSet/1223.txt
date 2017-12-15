@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_vars.c
+inline
+/* Create an array large enough to accomodate every extension. This is
+* likely overkill, but safe.
+*/

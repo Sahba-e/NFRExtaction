@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/service.c
+inline
+/* for Terminate signals, shut down the server.
+* Wait for Apache to terminate, but respond
+* after a reasonable time to tell the system
+* that we did attempt to shut ourself down.
+*/

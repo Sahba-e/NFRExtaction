@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+task
+/* TODO: These aught to become overrideable, so that we
+* assure a given isapi can be fooled into behaving well.
+*
+* The tricky bit, they aren't really a per-dir sort of
+* config, they will always be constant across every
+* reference to the .dll no matter what context (vhost,
+* location, etc) they apply to.
+*/

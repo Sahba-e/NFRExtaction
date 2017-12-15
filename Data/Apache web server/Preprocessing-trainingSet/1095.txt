@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/* The EOR bucket has either been handled by an output filter (eg.
+* deleted or moved to a buffered_bb => no more in bb), or an error
+* occured before that (eg. c->aborted => still in bb) and we ought
+* to destroy it now. So cleanup any remaining bucket along with
+* the orphan request (if any).
+*/

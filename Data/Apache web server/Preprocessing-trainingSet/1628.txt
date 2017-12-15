@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+member
+/* Check whether the (inflate) ratio exceeds the configured limit/burst. */

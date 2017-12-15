@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* Let others who are blocked on this particular
+* module resume their requests, for better or worse.
+*/

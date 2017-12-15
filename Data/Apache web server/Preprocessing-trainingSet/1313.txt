@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_scan.c
+member
+/* ap_expr_yylex_init_extra has the same functionality as ap_expr_yylex_init, but follows the
+* convention of taking the scanner as the last argument. Note however, that
+* this is a *pointer* to a scanner, as it will be allocated by this call (and
+* is the reason, too, why this function also must handle its own declaration).
+* The user defined value in the first argument will be available to ap_expr_yyalloc in
+* the yyextra field.
+*/

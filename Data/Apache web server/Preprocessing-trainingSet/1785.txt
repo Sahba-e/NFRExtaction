@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Matching MIME types ... the star/star and foo/star commenting conventions
+* are implemented here. (You know what I mean by star/star, but just
+* try mentioning those three characters in a C comment). Using strcmp()
+* is legit, because everything has already been smashed to lowercase.
+*
+* Note also that if we get an exact match on the media type, we update
+* level_matched for use in level_cmp below...
+*
+* We also give a value for mime_stars, which is used later. It should
+* be 1 for star/star, 2 for type/star and 3 for type/subtype.
+*/

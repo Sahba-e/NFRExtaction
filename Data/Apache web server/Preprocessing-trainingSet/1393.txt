@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/* No port string given in the AbsoluteUri, and we have no
+* idea what the default port for the scheme is. Leave it
+* blank and live with the inefficiency of some extra cached
+* entities.
+*/

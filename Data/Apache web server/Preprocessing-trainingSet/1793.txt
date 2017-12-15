@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Now find out if this variant is better than the current
+* best, either using the RVSA/1.0 algorithm, or Apache's
+* internal server-driven algorithm. Presumably other
+* server-driven algorithms are possible, and could be
+* implemented here.
+*/

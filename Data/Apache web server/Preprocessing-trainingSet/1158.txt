@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+inline
+/* Ok, we already know the pattern has matched, but we now
+* additionally have to check for all existing preconditions
+* (RewriteCond) which have to be also true. We do this at
+* this very late stage to avoid unnessesary checks which
+* would slow down the rewriting engine.
+*/

@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_parse.c
+inline
+/* If not already recovering from an error, report this error. */

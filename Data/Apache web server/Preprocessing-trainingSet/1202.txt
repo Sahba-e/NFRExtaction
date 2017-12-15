@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/*
+* Do a "e;longest match"e; on the worker name to find the worker that
+* fits best to the URL, but keep in mind that we must have at least
+* a minimum matching of length min_match such that
+* scheme://hostname[:port] matches between worker and url.
+*/

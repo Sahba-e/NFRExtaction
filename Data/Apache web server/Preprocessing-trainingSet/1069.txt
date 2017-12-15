@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_reqtimeout.c
+inline
+/* The source of these above us in the core is check_pipeline(), which
+* is between requests but before this filter knows to reset timeouts
+* during pre_read_request(). If they appear elsewhere, just don't
+* check or extend the time since they won't block and we'll see the
+* bytes again later
+*/

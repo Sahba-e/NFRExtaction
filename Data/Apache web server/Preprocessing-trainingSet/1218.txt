@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+inline
+/*
+* Now we force the SSL renegotiation by sending the Hello Request
+* message to the client. Here we have to do a workaround: Actually
+* OpenSSL returns immediately after sending the Hello Request (the
+* intent AFAIK is because the SSL/TLS protocol says it's not a must
+* that the client replies to a Hello Request). But because we insist
+* on a reply (anything else is an error for us) we have to go to the
+* ACCEPT state manually. Using SSL_set_accept_state() doesn't work
+* here because it resets too much of the connection. So we set the
+* state explicitly and continue the handshake manually.
+*/

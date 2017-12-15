@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/experimental/mod_noloris.c
+inline
+/* reset shm before writing to it.
+* We're only dealing with approx. counts, so we ignore the race condition
+* with our prospective readers
+*/

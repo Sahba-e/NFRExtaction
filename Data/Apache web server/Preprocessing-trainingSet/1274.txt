@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/mpm_winnt.c
+inline
+/* Open a null handle to soak stdout in this process.
+* We need to emulate apr_proc_detach, unix performs this
+* same check in the pre_config hook (although it is
+* arguably premature). Services already fixed this.
+*/

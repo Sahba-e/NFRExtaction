@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_substitute.c
+inline
+/*
+* Simple optimization. If we only have one pattern, then
+* we can safely avoid the overhead of flattening
+*/

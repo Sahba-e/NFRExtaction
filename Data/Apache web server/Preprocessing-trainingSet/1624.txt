@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+inline
+/* this is SetInputFilter path; grab the preallocated context,
+* if any; note that if we decided not to do anything in an earlier
+* handler, we won't even have a reqinfo
+*/

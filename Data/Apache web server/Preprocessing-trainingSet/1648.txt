@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_proxy_html.c
+inline
+/* if it doesn't contain "e;content"e;, ignore, don't crash! */

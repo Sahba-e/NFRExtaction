@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* We are actually caching this response. So it does not
+* make sense to remove this entity any more.
+*/

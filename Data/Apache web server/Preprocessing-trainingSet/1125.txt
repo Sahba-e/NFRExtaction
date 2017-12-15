@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/*
+* Connect to the LDAP server and binds. Does not connect if already
+* connected (i.e. ldc->ldap is non-NULL.) Does not bind if already bound.
+*
+* Returns LDAP_SUCCESS on success; and an error code on failure
+*/

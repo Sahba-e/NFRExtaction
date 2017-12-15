@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_balancer.c
+inline
+/*
+* This balancer has sticky sessions and the client either has not
+* supplied any routing information or all workers for this route
+* including possible redirect and hotstandby workers are in error
+* state, but we have found another working worker for this
+* balancer where we can send the request. Thus notice that we have
+* changed the route to the backend.
+*/

@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/**
+* Set LDAPTrustedGlobalCert.
+*
+* This directive takes either two or three arguments:
+* - certificate type
+* - certificate file / directory / nickname
+* - certificate password (optional)
+*
+* This directive may only be used globally.
+*/

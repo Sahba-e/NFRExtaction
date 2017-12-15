@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_worker.c
+inline
+/* clean our references and report request as done. Signal
+* that we want another unless we have been aborted */

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_init.c
+
+/* DH_free() is a noop for a NULL parameter, so these are harmless
+* in the (unexpected) case where these variables are already
+* NULL. */

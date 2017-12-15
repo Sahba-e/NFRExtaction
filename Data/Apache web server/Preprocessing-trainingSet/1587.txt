@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/debugging/mod_firehose.c
+inline
+/* ignore the error */

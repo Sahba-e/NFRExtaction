@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgi.c
+member
+/* Read method of CGI bucket: polls on stderr and stdout of the child,
+* sending any stderr output immediately away to the error log. */

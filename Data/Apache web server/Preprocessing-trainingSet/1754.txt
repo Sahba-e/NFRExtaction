@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/* cache-related settings are not merged here, but in the post_config hook,
+* since the cache has not yet sprung to life
+*/

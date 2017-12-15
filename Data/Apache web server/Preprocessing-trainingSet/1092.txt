@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/*
+* Check if we still have the ap_http_header_filter in place. If
+* this is the case we should not ignore the error here because
+* it means that we have not sent any response at all and never
+* will. This is bad. Sent an internal server error instead.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/prefork/prefork.c
+inline
+/* check for termination first so we don't sleep for a while in
+* poll if already signalled
+*/

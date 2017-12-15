@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/htcacheclean.c
+inline
+/* we have a somehow unreadable headers file which is associated
+* with a data file. this may be caused by apache currently
+* rewriting the headers file. thus we may delete the file set
+* either in realclean mode or if the headers file modification
+* timestamp is not within a specified positive or negative offset
+* to the current time.
+*/

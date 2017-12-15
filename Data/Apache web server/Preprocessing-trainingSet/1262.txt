@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/mpmt_os2/mpmt_os2.c
+inline
+/* Child terminated normally, check its exit code and
+* terminate server if child indicates a fatal error
+*/

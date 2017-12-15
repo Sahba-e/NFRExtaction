@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* Initialize these values for a standard MERGE response. If the MERGE
+is going to do something different (i.e. an error), then it must
+return a dav_error, and we'll reset these values properly. */

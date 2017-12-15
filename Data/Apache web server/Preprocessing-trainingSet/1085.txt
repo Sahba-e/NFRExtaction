@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/byterange_filter.c
+inline
+/*
+* Don't attempt to do byte range work if this brigade doesn't
+* contain an EOS, or if any of the buckets has an unknown length;
+* this avoids the cases where it is expensive to perform
+* byteranging (i.e. may require arbitrary amounts of memory).
+*/

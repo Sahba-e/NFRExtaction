@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_auth_digest.c
+inline
+/* Hmm, the simple match didn't work (probably a proxy modified the
+* request-uri), so lets do a more sophisticated match
+*/

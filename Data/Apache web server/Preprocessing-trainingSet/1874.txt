@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+
+/*
+* If the request has arguments it might have side-effects and thus
+* it might be undesirable to resend it to a backend again
+* automatically.
+*/

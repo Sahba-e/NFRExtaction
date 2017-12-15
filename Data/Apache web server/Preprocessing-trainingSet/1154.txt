@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+section
+/*
+* +-------------------------------------------------------+
+* | |
+* | URI and path functions
+* | |
+* +-------------------------------------------------------+
+*/

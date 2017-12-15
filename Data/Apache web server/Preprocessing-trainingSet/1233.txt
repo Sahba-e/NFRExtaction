@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+header
+/* we know core's module_index is 0 */

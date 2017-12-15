@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/* Validate auth_user: If an authenticated user created
+** the lock, only the same user may submit that locktoken
+** to manipulate a resource.
+*/

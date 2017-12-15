@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/listen.c
+inline
+/* I seriously doubt that this would work on Unix; I have doubts that
+* it entirely solves the problem on Win32. However, since setting
+* reuseaddr on the listener -prior- to binding the socket has allowed
+* us to attach to the same port as an already running instance of
+* Apache, or even another web server, we cannot identify that this
+* port was exclusively granted to this instance of Apache.
+*
+* So set reuseaddr, but do not attempt to do so until we have the
+* parent listeners successfully bound.
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+task
+/*
+* XXX: hmm. This is because mod_setenvif and mod_unique_id really need
+* to do their thing on internal redirects as well. Perhaps this is a
+* misnamed function.
+*/

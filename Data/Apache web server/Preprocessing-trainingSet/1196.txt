@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/*
+* if the address is given with an explicit netmask, use that
+* Due to a deficiency in apr_inet_addr(), it is impossible to parse
+* "e;partial"e; addresses (with less than 4 quads) correctly, i.e.
+* 192.168.123 is parsed as 192.168.0.123, which is not what I want.
+* I therefore have to parse the IP address manually:
+* if (proxy_readmask(This->name, &This->addr.s_addr, &This->mask.s_addr) == 0)
+* addr and mask were set by proxy_readmask()
+* return 1;
+*/

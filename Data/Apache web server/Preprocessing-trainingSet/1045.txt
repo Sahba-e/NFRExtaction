@@ -1,0 +1,17 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This function gets called to merge two per-directory configuration
+* records. This is typically done to cope with things like .htaccess files
+* or <Location> directives for directories that are beneath one for which a
+* configuration record was already created. The routine has the
+* responsibility of creating a new record and merging the contents of the
+* other two into it appropriately. If the module doesn't declare a merge
+* routine, the record for the closest ancestor location (that has one) is
+* used exclusively.
+*
+* The routine MUST NOT modify any of its arguments!
+*
+* The return value is a pointer to the created module-specific structure
+* containing the merged values.
+*/

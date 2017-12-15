@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_remoteip.c
+
+/* For intranet (Internal proxies) ignore all restrictions below */

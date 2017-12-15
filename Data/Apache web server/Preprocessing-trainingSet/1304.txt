@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util.c
+member
+/* c2x takes an unsigned, and expects the caller has guaranteed that
+* 0 <= what < 256... which usually means that you have to cast to
+* unsigned char first, because (unsigned)(char)(x) first goes through
+* signed extension to an int before the unsigned cast.
+*
+* The reason for this assumption is to assist gcc code generation --
+* the unsigned char -> unsigned extension is already done earlier in
+* both uses of this code, so there's no need to waste time doing it
+* again.
+*/

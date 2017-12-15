@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_util_stapling.c
+inline
+/* Check to see if response is an error. If so we automatically accept
+* it because it would have expired from the cache if it was time to
+* retry.
+*/

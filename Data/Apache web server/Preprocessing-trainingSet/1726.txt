@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_push.c
+inline
+/* a totally empty cache digest. someone tells us that she has no
+* entries in the cache at all. Use our own preferences for N+mask
+*/

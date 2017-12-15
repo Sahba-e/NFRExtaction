@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session.c
+member
+/**
+* Set a particular value to the session.
+*
+* Using this method ensures that the dirty flag is set correctly, so that
+* the session can be saved efficiently.
+* @param r The current request.
+* @param z The current session. If this value is NULL, the session will be
+* looked up in the request, created if necessary, and saved to the request
+* notes.
+* @param key The key to set. The existing key value will be replaced.
+* @param value The value to set.
+*/

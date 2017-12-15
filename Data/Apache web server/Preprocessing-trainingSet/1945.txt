@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session.c
+
+/**
+* Save the session.
+*
+* In most implementations the session is only saved if the dirty flag is
+* true. This prevents the session being saved unnecessarily.
+*
+* @param r The request
+* @param z A pointer to where the session will be written.
+*/

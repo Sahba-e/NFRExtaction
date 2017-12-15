@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_init.c
+
+/*
+* Disallow a session from being resumed during a renegotiation,
+* so that an acceptable cipher suite can be negotiated.
+*/

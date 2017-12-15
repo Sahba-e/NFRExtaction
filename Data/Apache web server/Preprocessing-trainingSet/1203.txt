@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/*
+* Put the entire worker to error state if
+* the PROXY_WORKER_IGNORE_ERRORS flag is not set.
+* Although some connections may be alive
+* no further connections to the worker could be made
+*/

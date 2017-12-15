@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/* The output has always been to the parent. Don't make ourself
+* our own parent (worthless cyclical reference).
+*/

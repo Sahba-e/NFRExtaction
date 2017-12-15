@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_fcgi.c
+inline
+/* If the client aborted the connection during retrieval or (partially)
+* sending the response, dont't return a HTTP_SERVICE_UNAVAILABLE, since
+* this is not a backend problem. */

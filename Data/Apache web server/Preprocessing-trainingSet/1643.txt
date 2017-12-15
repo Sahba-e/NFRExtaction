@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_include.c
+member
+/*
+* decodes a string containing html entities or numeric character references.
+* 's' is overwritten with the decoded string.
+* If 's' is syntatically incorrect, then the followed fixups will be made:
+* unknown entities will be left undecoded;
+* references to unused numeric characters will be deleted.
+* In particular, &#00; will not be decoded, but will be deleted.
+*/

@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/unix/mod_privileges.c
+member
+/* ugly hack: grab default uid and gid from unixd */

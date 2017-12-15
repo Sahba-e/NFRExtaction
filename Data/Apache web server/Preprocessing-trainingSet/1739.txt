@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/*
+* Find an existing ldap connection struct that matches the
+* provided ldap connection parameters.
+*
+* If not found in the cache, a new ldc structure will be allocated
+* from st->pool and returned to the caller. If found in the cache,
+* a pointer to the existing ldc structure will be returned.
+*/

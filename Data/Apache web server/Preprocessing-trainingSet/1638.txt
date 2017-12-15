@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_ext_filter.c
+inline
+/* Yuck... I'd really like to wait until I can read
+* or write, but instead I have to sleep and try again
+*/

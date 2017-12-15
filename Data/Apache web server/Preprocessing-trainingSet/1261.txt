@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/mpmt_os2/mpmt_os2.c
+inline
+/* A child has terminated, remove its scoreboard entry & terminate if necessary */

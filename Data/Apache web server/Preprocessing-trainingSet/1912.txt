@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* This is an appropriate default; very efficient for no-body
+* requests, and has the behavior that it will not add any C-L
+* when the *old_cl_val is NULL.
+*/

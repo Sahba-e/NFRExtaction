@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/* Interpolate an env str in a configuration string
+* Syntax ${var} --> value_of(var)
+* Method: replace one var, and recurse on remainder of string
+* Nothing clever here, and crap like nested vars may do silly things
+* but we'll at least avoid sending the unwary into a loop
+*/

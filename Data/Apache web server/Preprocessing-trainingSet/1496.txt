@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+inline
+/*
+** If an error occurred, then add it to multistatus response.
+** Note that we add it for the root resource, too. It is quite
+** possible to delete the whole darn tree, yet fail on the root.
+**
+** (also: remember we are deleting via a postfix traversal)
+*/

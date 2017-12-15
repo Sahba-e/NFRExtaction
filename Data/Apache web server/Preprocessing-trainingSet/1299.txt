@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+inline
+/* No tricks here, there are no <Locations > to parse in this vhost.
+* We won't destroy the cache, just in case _this_ redirect is later
+* redirected again to a vhost with <Location > blocks to optimize.
+*/

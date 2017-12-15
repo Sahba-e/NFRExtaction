@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+member
+/* charset_req_t is available via r->request_config if any translation is
+* being performed
+*/

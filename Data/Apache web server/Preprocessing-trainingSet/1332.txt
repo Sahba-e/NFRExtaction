@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_fcgi.c
+inline
+/* combined authn/authz phase, so app won't be invoked for authz
+*
+* Remember that the request was successfully authorized by this
+* provider.
+*/

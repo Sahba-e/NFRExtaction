@@ -1,0 +1,15 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* The brigade consists of zero-or-more small data buckets which
+* can be coalesced (the prefix), followed by the remainder of the
+* brigade.
+*
+* Find the last bucket - if any - of that prefix. count gives
+* the number of buckets in the prefix. The "e;prefix"e; must contain
+* only data buckets with known length, and must be of a total
+* size which fits into the buffer.
+*
+* N.B.: The process here could be repeated throughout the brigade
+* (coalesce any run of consecutive data buckets) but this would
+* add significant complexity, particularly to memory
+* management. */

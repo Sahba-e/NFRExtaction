@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/config.c
+inline
+/* Before continuing, allow each filter that is in the two chains to
+* run their init function to let them do any magic before we could
+* start generating data.
+*/

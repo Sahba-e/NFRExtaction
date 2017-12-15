@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_setenvif.c
+
+/*
+* This routine handles the BrowserMatch* directives. It simply turns around
+* and feeds them, with the appropriate embellishments, to the general-purpose
+* command handler.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/*
+* Ensure that balancer is NULL if worker is NULL to prevent
+* potential problems in the post_request hook.
+*/

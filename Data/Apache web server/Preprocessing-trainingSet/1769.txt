@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+section
+/* The next five items give the quality values for the dimensions
+* of negotiation for this variant. They are obtained from the
+* appropriate header lines, except for source_quality, which
+* is obtained from the variant itself (the 'qs' parameter value
+* from the variant's mime-type). Apart from source_quality,
+* these values are set when we find the quality for each variant
+* (see best_match()). source_quality is set from the 'qs' parameter
+* of the variant description or mime type: see set_mime_fields().
+*/

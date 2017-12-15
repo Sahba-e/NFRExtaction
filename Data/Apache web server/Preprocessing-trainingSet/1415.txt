@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* RFC2616 14.9.1 Cache-Control: private response
+* this object is marked for this user's eyes only. Behave
+* as a tunnel.
+*/

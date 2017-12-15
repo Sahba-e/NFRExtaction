@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+inline
+/* ### should pass depth to dav_inherit_locks so that it can
+** ### optimize for the depth==0 case.
+*/

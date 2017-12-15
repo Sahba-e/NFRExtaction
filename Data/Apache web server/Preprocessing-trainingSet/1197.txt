@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/*
+* Parse IP addr manually, optionally allowing
+* abbreviated net addresses like 192.168.
+*/

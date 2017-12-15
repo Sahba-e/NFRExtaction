@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/*
+* Notice a timeout as an error message. This might be
+* valuable for detecting clients with broken network
+* connections or possible DoS attacks.
+*
+* It is still safe to use r / r->pool here as the eor bucket
+* could not have been destroyed in the event of a timeout.
+*/

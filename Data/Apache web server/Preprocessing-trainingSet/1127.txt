@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/*
+* Compares two DNs to see if they're equal. The only way to do this correctly
+* is to search for the dn and then do ldap_get_dn() on the result. This should
+* match the initial dn, since it would have been also retrieved with
+* ldap_get_dn(). This is expensive, so if the configuration value
+* compare_dn_on_server is false, just does an ordinary strcmp.
+*
+* The lock for the ldap cache should already be acquired.
+*/

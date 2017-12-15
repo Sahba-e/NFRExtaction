@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* If we are allowed to mess with the q-values
+* and have no explicit q= parameters in the accept header,
+* make wildcards very low, so we have a low chance
+* of ending up with them if there's something better.
+*/

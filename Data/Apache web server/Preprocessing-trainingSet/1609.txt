@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine maps r->filename to a physical file on disk. Useful for
+* overriding default core behavior, including skipping mapping for
+* requests that are not file based.
+*
+* This is a RUN_FIRST hook.
+*/

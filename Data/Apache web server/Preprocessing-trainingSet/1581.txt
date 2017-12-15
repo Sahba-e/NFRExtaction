@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+inline
+/* <locks> has all our new locks. Walk down and propagate them. */

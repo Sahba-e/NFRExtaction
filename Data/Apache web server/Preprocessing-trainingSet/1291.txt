@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/protocol.c
+inline
+/* http://issues.apache.org/bugzilla/show_bug.cgi?id=31875
+* http://issues.apache.org/bugzilla/show_bug.cgi?id=28450
+*
+* This is not in fact a URI, it's a path. That matters in the
+* case of a leading double-slash. We need to resolve the issue
+* by normalising that out before treating it as a URI.
+*/

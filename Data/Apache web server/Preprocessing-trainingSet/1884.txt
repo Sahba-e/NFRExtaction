@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_balancer.c
+
+/*
+* We have a route provided that doesn't match the
+* balancer name. See if the provider route is the
+* member of the same balancer in which case return 503
+*/

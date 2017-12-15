@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_conn.c
+task
+/* This is like the slave connection creation from 2.5-DEV. A
+* very efficient way - not sure how compatible this is, since
+* the core hooks are no longer run.
+* But maybe it's is better this way, not sure yet.
+*/

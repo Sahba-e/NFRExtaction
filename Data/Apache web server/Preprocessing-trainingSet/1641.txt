@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_filter.c
+inline
+/* check whether this is already registered, in which case
+* it's already in the filter chain
+*/

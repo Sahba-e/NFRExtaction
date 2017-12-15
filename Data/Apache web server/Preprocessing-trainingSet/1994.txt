@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* Store the SSL_SESSION in the inter-process cache with the
+* same expire time, so it expires automatically there, too.
+*/

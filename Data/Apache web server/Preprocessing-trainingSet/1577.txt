@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+inline
+/* Find the top of this lock-
+* If r->filename's direct locks include locktoken, use r->filename.
+* If r->filename's indirect locks include locktoken, retry r->filename/..
+* Else fail.
+*/

@@ -1,0 +1,32 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+member
+/* chk_filter_chain() is called once per filter instance; it tries to
+* determine if the current filter instance should be disabled because
+* its translation is incompatible with the translation of an existing
+* instance of the translate filter
+*
+* Example bad scenario:
+*
+* configured filter chain for the request:
+* INCLUDES XLATEOUT(8859-1->UTS-16)
+* configured filter chain for the subrequest:
+* XLATEOUT(8859-1->UTS-16)
+*
+* When the subrequest is processed, the filter chain will be
+* XLATEOUT(8859-1->UTS-16) XLATEOUT(8859-1->UTS-16)
+* This makes no sense, so the instance of XLATEOUT added for the
+* subrequest will be noop-ed.
+*
+* Example good scenario:
+*
+* configured filter chain for the request:
+* INCLUDES XLATEOUT(8859-1->UTS-16)
+* configured filter chain for the subrequest:
+* XLATEOUT(IBM-1047->8859-1)
+*
+* When the subrequest is processed, the filter chain will be
+* XLATEOUT(IBM-1047->8859-1) XLATEOUT(8859-1->UTS-16)
+* This makes sense, so the instance of XLATEOUT added for the
+* subrequest will be left alone and it will translate from
+* IBM-1047->8859-1.
+*/

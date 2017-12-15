@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* After consuming all protocol-level input, remove all protocol-level
+* filters. It should strictly only be necessary to remove filters
+* at exactly ftype == AP_FTYPE_PROTOCOL, since this filter will
+* precede all > AP_FTYPE_PROTOCOL anyway. */

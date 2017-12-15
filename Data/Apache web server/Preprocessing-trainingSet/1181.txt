@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+inline
+/* Handle the case where the error document is itself reverse
+* proxied and was successful. We must maintain any previous
+* error status so that an underlying error (eg HTTP_NOT_FOUND)
+* doesn't become an HTTP_OK.
+*/

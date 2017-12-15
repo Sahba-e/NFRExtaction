@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+section
+/* will be invoked by the parser when our "e;real"e; directive is */

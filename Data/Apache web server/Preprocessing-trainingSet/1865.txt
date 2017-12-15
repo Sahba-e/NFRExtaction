@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/* For shared memory entries, b2->s belongs to override
+* balancer, so if some entry is not set there, we have to
+* update it according to the base balancer. */

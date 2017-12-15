@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_mplx.c
+inline
+/* We have the io ready, but the stream has gone away, maybe
+* reset by the client. Should no longer happen since such
+* streams should clear io's from the ready queue.
+*/

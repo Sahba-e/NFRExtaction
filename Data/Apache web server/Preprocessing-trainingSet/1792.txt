@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Find all the relevant 'quality' values from the
+* Accept... headers, and store in the variant. This also
+* prepares for sending an Alternates header etc so we need to
+* do it even if we do not actually plan to find a best
+* variant.
+*/

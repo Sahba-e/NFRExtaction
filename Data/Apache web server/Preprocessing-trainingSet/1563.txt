@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** We just matched a specified State-Token to one of the
+** resource's locktokens.
+**
+** Break out of the lock scan -- we only needed to find
+** one match (actually, there shouldn't be any other
+** matches in the lock list).
+*/

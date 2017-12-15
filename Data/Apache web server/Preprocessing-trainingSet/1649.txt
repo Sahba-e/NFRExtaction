@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_proxy_html.c
+inline
+/* pass on flush, except at start where it would cause
+* headers to be sent before doc sniffing
+*/

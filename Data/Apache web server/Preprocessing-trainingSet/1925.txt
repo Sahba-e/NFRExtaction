@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_serf.c
+
+/* XXXXX: List of headers not to copy to serf. serf's serf_bucket_headers_setn,
+* doesn't actually overwrite a header if we set it once, so we need to ignore anything
+* we might want to toggle or combine.
+*/

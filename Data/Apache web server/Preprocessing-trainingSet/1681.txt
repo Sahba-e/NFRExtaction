@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_status.c
+inline
+/*
+* These differ from 'busy' and 'ready' in how gracefully finishing
+* threads are counted. XXX: How to make this clear in the html?
+*/

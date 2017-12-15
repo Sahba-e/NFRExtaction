@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_fcgi.c
+member
+/*
+* utility function to connect to a peer; generally useful, but
+* wait for AF_UNIX support in this mod before thinking about how
+* to make it available to other modules
+*/

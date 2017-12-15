@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_parse.c
+member
+/* Start YYX at -YYN if negative to avoid negative indexes in
+YYCHECK. In other words, skip the first -YYN actions for
+this state because they are default actions. */

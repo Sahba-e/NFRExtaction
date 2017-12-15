@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/* Stop at the protocol filters. If a protocol filter has
+* been newly installed for this resource, better leave it
+* in place, though it's probably a misconfiguration or
+* filter bug to get into this state. */

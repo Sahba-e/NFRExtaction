@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+inline
+/* expected cause is that the client disconnected already,
+* hence the debug level
+*/

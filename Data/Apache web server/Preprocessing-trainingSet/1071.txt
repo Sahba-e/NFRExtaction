@@ -1,0 +1,20 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_sed.c
+inline
+/* Here is the logic :
+* Read the readbytes data from next level fiter into bbinp. Loop through
+* the buckets in bbinp and read the data from buckets and invoke
+* sed_eval_buffer on the data. libsed will generate its output using
+* sed_write_output which will add data in ctx->bb. Do it until it have
+* atleast one bucket in ctx->bb. At the end of data eos bucket
+* should be there.
+*
+* Once eos bucket is seen, then invoke sed_finalize_eval to clear the
+* output. If the last byte of data is not a new line character then sed
+* will add a new line to the data that is default sed behaviour. Note
+* that using this filter with POST data, caller may not expect this
+* behaviour.
+*
+* If next level fiter generate the flush bucket, we can't do much about
+* it. If we want to return the flush bucket in brigade bb (to the caller)
+* the question is where to add it?
+*/

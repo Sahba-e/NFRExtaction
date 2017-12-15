@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/*
+* CACHE_SAVE must go into the filter chain after a possible DEFLATE
+* filter to ensure that the compressed content is stored.
+* Incrementing filter type by 1 ensures this happens.
+*/

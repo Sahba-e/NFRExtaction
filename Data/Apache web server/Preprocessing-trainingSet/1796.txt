@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Called if we got a "e;Choice"e; response from the variant selection algorithm.
+* It checks the result of the chosen variant to see if it
+* is itself negotiated (if so, return error HTTP_VARIANT_ALSO_VARIES).
+* Otherwise, add the appropriate headers to the current response.
+*/

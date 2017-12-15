@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+member
+/* There are two options regarding what the "e;name"e; of a server is. The
+* "e;canonical"e; name as defined by ServerName and Port, or the "e;client's
+* name"e; as supplied by a possible Host: header or full URI.
+*
+* The DNS option to UseCanonicalName causes this routine to do a
+* reverse lookup on the local IP address of the connection and use
+* that for the ServerName. This makes its value more reliable while
+* at the same time allowing Demon's magic virtual hosting to work.
+* The assumption is that DNS lookups are sufficiently quick...
+* -- fanf 1998-10-03
+*/

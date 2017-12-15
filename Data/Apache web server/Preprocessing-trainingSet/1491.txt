@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+member
+/* Copy or move src to dst; src_finfo is used to propagate permissions
+* bits across if non-NULL; dst_finfo must be non-NULL iff dst already
+* exists. */

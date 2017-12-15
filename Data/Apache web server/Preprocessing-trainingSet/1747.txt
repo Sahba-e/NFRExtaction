@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* 3.B. The cache didn't have any subgrouplist yet. Go check for subgroups.
+*/

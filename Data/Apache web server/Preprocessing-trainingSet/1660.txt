@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/*
+* We're guaranteed that there'll be no overlap between
+* the add-options and the remove-options.
+*/

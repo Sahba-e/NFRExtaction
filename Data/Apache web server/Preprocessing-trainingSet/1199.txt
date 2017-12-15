@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+task
+/*
+* XXX FIXME: Make sure this handled the ambiguous case of the :<PORT>
+* after the hostname
+* XXX FIXME: Ensure the /uri component is a case sensitive match
+*/

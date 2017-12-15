@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/ajp_header.c
+
+/*
+* Could optimize here, but just in case we want to
+* also save other headers, keep this logic.
+*/

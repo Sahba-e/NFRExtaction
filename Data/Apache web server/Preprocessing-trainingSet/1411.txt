@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* We've already sent down the response and EOS. So, ignore
+* whatever comes now.
+*/

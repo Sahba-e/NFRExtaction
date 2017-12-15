@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/netware/mod_nw_ssl.c
+inline
+/* XXX Should be echoing by h_errno the actual failure, no?
+* ap_log_error would be good here. Better yet - APRize.
+*/

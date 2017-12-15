@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/lock/locks.c
+member
+/*
+* dav_load_lock_record: Reads lock information about key from lock db;
+* creates linked lists of the direct and indirect locks.
+*
+* If add_method = DAV_APPEND_LIST, the result will be appended to the
+* head of the direct and indirect lists supplied.
+*
+* Passive lock removal: If lock has timed out, it will not be returned.
+* ### How much "e;logging"e; does RFC 2518 require?
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* If the module was not found, it's time to create a hash key entry
+* before releasing the hash lock to avoid multiple threads from
+* loading the same module.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+
+/*
+* If connection has been aborted by client: Stop working.
+* Pretend we are done (data_sent) to avoid further processing.
+*/

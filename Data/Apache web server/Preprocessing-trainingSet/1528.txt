@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* ### this is Yet Another Traversal. if we do a rename(), then we
+* ### really don't have to do this in some cases since the inode
+* ### values will remain constant across the move. but we can't
+* ### know that fact from outside the provider :-(
+*
+* ### note that we now have a problem atomicity in the move/copy
+* ### since a failure after this would have removed locks (technically,
+* ### this is okay to do, but really...)
+*/

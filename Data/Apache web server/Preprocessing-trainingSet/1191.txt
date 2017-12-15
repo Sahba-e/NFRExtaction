@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ftp.c
+member
+/* Common routine for failed authorization (i.e., missing or wrong password)
+* to an ftp service. This causes most browsers to retry the request
+* with username and password (which was presumably queried from the user)
+* supplied in the Authorization: header.
+* Note that we "e;invent"e; a realm name which consists of the
+* ftp://user@host part of the reqest (sans password -if supplied but invalid-)
+*/

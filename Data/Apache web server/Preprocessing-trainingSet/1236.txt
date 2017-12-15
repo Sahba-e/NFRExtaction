@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+inline
+/* We're not checking this condition to be fast... we're checking
+* it to avoid trying to palloc zero bytes, which can trigger some
+* memory debuggers to barf
+*/

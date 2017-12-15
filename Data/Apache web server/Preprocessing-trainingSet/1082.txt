@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+member
+/* DEFAULT_CONNECT_ATTEMPTS controls how many times we'll try to connect
+* to the cgi daemon from the thread/process handling the cgi request.
+* Generally we want to retry when we get ECONNREFUSED since it is
+* probably because the listen queue is full. We need to try harder so
+* the client doesn't see it as a 503 error.
+*
+* Set this to 0 to continually retry until the connect works or Apache
+* terminates.
+*/

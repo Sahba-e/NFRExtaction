@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authz_core.c
+task
+/*
+* We need a user before we can decide what to do.
+* Get out of the way and proceed with authentication.
+*/

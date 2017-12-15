@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authz_groupfile.c
+inline
+/* No need to emit a error log entry because the call
+to authz_owner_get_file_group already did it
+for us.
+*/

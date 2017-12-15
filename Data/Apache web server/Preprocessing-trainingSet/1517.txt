@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+member
+/*
+** dav_error_response()
+**
+** Send a nice response back to the user. In most cases, Apache doesn't
+** allow us to provide details in the body about what happened. This
+** function allows us to completely specify the response body.
+**
+** ### this function is not logging any errors! (e.g. the body)
+*/

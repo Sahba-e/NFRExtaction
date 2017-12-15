@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/vhost.c
+inline
+/*
+* Already parsed, surrounding [ ] (if IPv6 literal) and :port have
+* already been removed.
+*/

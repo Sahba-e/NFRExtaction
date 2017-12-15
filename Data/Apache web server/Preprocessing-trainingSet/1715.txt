@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_h2.c
+inline
+/* Our main processing needs to run quite late. Definitely after mod_ssl,
+* as we need its connection filters, but also before reqtimeout as its
+* method of timeouts is specific to HTTP/1.1 (as of now).
+* The core HTTP/1 processing run as REALLY_LAST, so we will have
+* a chance to take over before it.
+*/

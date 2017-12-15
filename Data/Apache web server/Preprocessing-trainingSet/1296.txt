@@ -1,0 +1,16 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+member
+/*
+* resolve_symlink must _always_ be called on an APR_LNK file type!
+* It will resolve the actual target file type, modification date, etc,
+* and provide any processing required for symlink evaluation.
+* Path must already be cleaned, no trailing slash, no multi-slashes,
+* and don't call this on the root!
+*
+* Simply, the number of times we deref a symlink are minimal compared
+* to the number of times we had an extra lstat() since we 'weren't sure'.
+*
+* To optimize, we stat() anything when given (opts & OPT_SYM_LINKS), otherwise
+* we start off with an lstat(). Every lstat() must be dereferenced in case
+* it points at a 'nasty' - we must always rerun check_safe_file (or similar.)
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authz_core.c
+task
+/*
+* If we're returning 401 to an authenticated user, tell them to
+* try again. If unauthenticated, note_auth_failure has already
+* been called during auth.
+*/

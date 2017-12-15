@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/* We can't add this filter until we have already sent the headers.
+* If we add it before this point, then the headers will be chunked
+* as well, and that is just wrong.
+*/

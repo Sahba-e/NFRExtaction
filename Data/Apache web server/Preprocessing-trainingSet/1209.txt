@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl.c
+inline
+/* Don't call ERR_free_strings in earlier versions, ERR_load_*_strings only
+* actually loaded the error strings once per process due to static
+* variable abuse in OpenSSL. */

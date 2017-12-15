@@ -1,0 +1,15 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session_cookie.c
+member
+/**
+* Isolate the cookie with the name "e;name"e;, and if present, extract
+* the payload from the cookie.
+*
+* If the cookie is found, the cookie and any other cookies with the
+* same name are removed from the cookies passed in the request, so
+* that credentials are not leaked to a backend server or process.
+*
+* A missing or malformed cookie will cause this function to return
+* APR_EGENERAL.
+*
+* On success, this returns APR_SUCCESS.
+*/

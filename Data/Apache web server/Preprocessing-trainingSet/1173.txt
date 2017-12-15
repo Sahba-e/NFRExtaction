@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+inline
+/* If set to 'on' the session will break
+* if the worker is in error state or
+* disabled.
+*/

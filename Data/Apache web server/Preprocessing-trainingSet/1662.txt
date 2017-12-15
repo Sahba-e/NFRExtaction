@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+member
+/*
+* Handle the preamble through the H1 tag line, inclusive. Locate
+* the file with a subrequests. Process text/html documents by actually
+* running the subrequest; text/xxx documents get copied verbatim,
+* and any other content type is ignored. This means that a non-text
+* document (such as HEADER.gif) might get multiviewed as the result
+* instead of a text document, meaning nothing will be displayed, but
+* oh well.
+*/

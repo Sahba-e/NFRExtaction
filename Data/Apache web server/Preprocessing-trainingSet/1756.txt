@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+
+/*
+* initializing cache if we don't already have a shm address
+*/

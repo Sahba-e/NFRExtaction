@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+code
+/*
+DBG2("e;compare: rsrc=%s ifhdr=%s"e;,
+(*locks_hooks->format_locktoken)(p, lock->locktoken),
+(*locks_hooks->format_locktoken)(p, state_list->locktoken));
+*/

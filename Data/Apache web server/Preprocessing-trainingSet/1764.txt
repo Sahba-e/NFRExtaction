@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/lua_request.c
+
+/**
+* ap_send_interim_response (request_rec *r, int send_headers)
+* Send an interim (HTTP 1xx) response immediately.
+* @param r The request
+* @param send_headers Whether to send&clear headers in r->headers_out
+*/

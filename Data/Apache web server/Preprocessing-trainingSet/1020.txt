@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+task
+/*
+** ### actually, this is probably wrong: we want to fail the whole
+** ### LOCK process if something goes bad. maybe the caller should
+** ### do a dav_unlock() (e.g. a rollback) if any errors occurred.
+*/

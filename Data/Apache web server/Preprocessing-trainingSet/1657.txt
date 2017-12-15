@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_substitute.c
+inline
+/*
+* First time around? Create the saved bb that we used for each pass
+* through. Note that we can also get here when we explicitly clear ctx,
+* for error handling
+*/

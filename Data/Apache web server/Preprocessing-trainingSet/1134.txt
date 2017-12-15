@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* Initialize SSL support, and log the result for the benefit of the admin.
+*
+* If SSL is not supported it is not necessarily an error, as the
+* application may not want to use it.
+*/

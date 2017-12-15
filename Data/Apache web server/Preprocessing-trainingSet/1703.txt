@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/*
+* Dumb user has given us a bad url to redirect to --- fake up
+* dying with a recursive server error...
+*/

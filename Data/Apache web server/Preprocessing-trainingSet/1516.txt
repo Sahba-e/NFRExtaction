@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* DBG3("e;dav_merge_dir_config: new=%08lx base=%08lx overrides=%08lx"e;,
+(long)newconf, (long)base, (long)overrides); */

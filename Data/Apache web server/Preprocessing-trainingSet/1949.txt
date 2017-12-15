@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session_dbd.c
+
+/* No need to do additional error logging here, it has already
+been done in dbd_init if needed */

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* HTTP "e;Ping"e; test? Easiest is 100-Continue. However:
+* To be compliant, we only use 100-Continue for requests with bodies.
+* We also make sure we won't be talking HTTP/1.0 as well.
+*/

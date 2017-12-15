@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+member
+/* construct and return the default error message for a given
+* HTTP defined error code
+*/

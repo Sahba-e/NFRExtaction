@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_parse.c
+member
+/* YYTABLE[YYPACT[STATE-NUM]]. What to do in state STATE-NUM. If
+positive, shift that token. If negative, reduce the rule which
+number is the opposite. If YYTABLE_NINF, syntax error. */

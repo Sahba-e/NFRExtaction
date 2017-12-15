@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/*
+* Control cachability for non-cachable responses if not already set by
+* some other part of the server configuration.
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* Add the new connection entry to the linked list. Note that we
+* don't actually establish an LDAP connection yet; that happens
+* the first time authentication is requested.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Finished looking at Accept-Language headers, the best
+* (longest) match is in bestthistag, or NULL if no match
+*/

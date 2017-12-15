@@ -1,0 +1,28 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+member
+/*
+* Go through the whole list, stopping if you find a match. Process all the
+* continuations of that match before returning.
+*
+* We support multi-level continuations:
+*
+* At any time when processing a successful top-level match, there is a current
+* continuation level; it represents the level of the last successfully
+* matched continuation.
+*
+* Continuations above that level are skipped as, if we see one, it means that
+* the continuation that controls them - i.e, the lower-level continuation
+* preceding them - failed to match.
+*
+* Continuations below that level are processed as, if we see one, it means
+* we've finished processing or skipping higher-level continuations under the
+* control of a successful or unsuccessful lower-level continuation, and are
+* now seeing the next lower-level continuation and should process it. The
+* current continuation level reverts to the level of the one we're seeing.
+*
+* Continuations at the current level are processed as, if we see one, there's
+* no lower-level continuation that may have failed.
+*
+* If a continuation matches, we bump the current continuation level so that
+* higher-level continuations are processed.
+*/

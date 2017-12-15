@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+inline
+/* we're done writing, or maybe we didn't write at all;
+* force EOF on child's stdin so that the cgi detects end (or
+* absence) of data
+*/

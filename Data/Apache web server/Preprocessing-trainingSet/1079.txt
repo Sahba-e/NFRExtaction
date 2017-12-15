@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/*
+* If there's a problem running the subrequest, display the
+* preamble if we didn't do it before -- the header file
+* didn't get displayed.
+*/

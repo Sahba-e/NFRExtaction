@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_disk.c
+inline
+/* Allocate and initialize cache_object_t and disk_cache_object_t */

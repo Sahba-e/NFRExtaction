@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/lock/locks.c
+inline
+/*
+* ### shouldn't do this if we've been opened READONLY. elide the
+* ### timed-out locks from the response, but don't save that info back
+*/

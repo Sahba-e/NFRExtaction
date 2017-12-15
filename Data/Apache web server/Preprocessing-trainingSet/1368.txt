@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_auth_form.c
+inline
+/*
+* make sure the logout page is never cached - otherwise the logout won't
+* work!
+*/

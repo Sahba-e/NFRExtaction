@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_mplx.c
+inline
+/* Wait for data to drain until there is room again or
+* stream timeout expires */

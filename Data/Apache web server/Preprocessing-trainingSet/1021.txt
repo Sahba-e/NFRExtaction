@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+member
+/*
+** dav_inherit_locks: When a resource or collection is added to a collection,
+** locks on the collection should be inherited to the resource/collection.
+** (MOVE, MKCOL, etc) Here we propagate any direct or indirect locks from
+** parent of resource to resource and below.
+*/

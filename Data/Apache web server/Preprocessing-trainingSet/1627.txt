@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+member
+/* ETag must be unique among the possible representations, so a change
+* to content-encoding requires a corresponding change to the ETag.
+* This routine appends -transform (e.g., -gzip) to the entity-tag
+* value inside the double-quotes if an ETag has already been set
+* and its value already contains double-quotes. PR 39727
+*/

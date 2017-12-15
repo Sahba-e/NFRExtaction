@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+inline
+/* XXX apr_procattr_child_*_set() is creating an unnecessary
+* pipe between this process and the child being created...
+* It is cleaned up with the temporary pool for this request.
+*/

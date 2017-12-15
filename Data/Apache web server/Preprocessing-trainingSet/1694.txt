@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/* Check for conditional requests --- note that we only want to do
+* this if we are successful so far and we are not processing a
+* subrequest or an ErrorDocument.
+*
+* The order of the checks is important, since ETag checks are supposed
+* to be more accurate than checks relative to the modification time.
+* However, not all documents are guaranteed to *have* ETags, and some
+* might have Last-Modified values w/o ETags, so this gets a little
+* complicated.
+*/

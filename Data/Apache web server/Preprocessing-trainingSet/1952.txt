@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/slotmem/mod_slotmem_shm.c
+
+/* Don't mangle the file name if given an absolute path, it's
+* up to the caller to provide a unique name when necessary.
+*/

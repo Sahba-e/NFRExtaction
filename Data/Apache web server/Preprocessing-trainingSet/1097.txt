@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/mod_mime.c
+inline
+/*
+* Need to set a notes entry on r for unrecognized elements.
+* Somebody better claim them! If we did absolutely nothing,
+* skip the notes to alert mod_negotiation we are clueless.
+*/

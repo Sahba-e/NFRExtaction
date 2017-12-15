@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_speling.c
+
+/*
+* miscapitalization errors are checked first (like, e.g., lower case
+* file, upper case request)
+*/

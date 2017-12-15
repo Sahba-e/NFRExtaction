@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* RFC 2296 calls for the result to be rounded to 5 decimal places,
+* but we don't do that because it serves no useful purpose other
+* than to ensure that a remote algorithm operates on the same
+* precision as ours. That is silly, since what we obviously want
+* is for the algorithm to operate on the best available precision
+* regardless of who runs it. Since the above calculation may
+* result in significant variance at 1e-12, rounding would be bogus.
+*/

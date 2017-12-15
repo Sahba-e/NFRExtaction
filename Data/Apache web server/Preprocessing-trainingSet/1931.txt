@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* First check if mapping against a balancer and see
+* if we have such a entity. If so, then we need to
+* find the particulars of the actual worker which may
+* or may not be the right one... basically, we need
+* to find which member actually handled this request.
+*/

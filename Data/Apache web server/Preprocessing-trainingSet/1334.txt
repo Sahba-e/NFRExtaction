@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_authnz_ldap.c
+inline
+/* If the password isn't set in the per-request config, we didn't
+* authenticate this user, and leave the default credentials */

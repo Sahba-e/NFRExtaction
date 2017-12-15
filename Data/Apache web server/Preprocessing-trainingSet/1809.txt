@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/*
+* check for the ugly API case of a virtual host section where no
+* mod_rewrite directives exists. In this situation we became no chance
+* by the API to setup our default per-server config so we have to
+* on-the-fly assume we have the default config. But because the default
+* config has a disabled rewriting engine we are lucky because can
+* just stop operating now.
+*/

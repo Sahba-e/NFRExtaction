@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/lock.c
+section
+/* #################################################################
+** ### keep these structures (internal) or move fully to dav_lock?
+*/

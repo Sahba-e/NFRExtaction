@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** The locks on the resource (if any) are all shared. Set the
+** <seen_locktoken> flag to indicate that we do not need to find
+** the locks in an If: header.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgi.c
+inline
+/* Transfer any put/post args, CERN style...
+* Note that we already ignore SIGPIPE in the core server.
+*/

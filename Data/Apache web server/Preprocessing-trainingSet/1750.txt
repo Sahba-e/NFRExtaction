@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+member
+/*
+* This function will return the DN of the entry matching userid.
+* It is used to get the DN in case some other module than mod_auth_ldap
+* has authenticated the user.
+* The function is basically a copy of uldap_cache_checkuserid
+* with password checking removed.
+*/

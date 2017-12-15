@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_h2.c
+inline
+/* With "e;H2SerializeHeaders On"e;, we install the filter in this hook
+* that parses the response. This needs to happen before any other post
+* read function terminates the request with an error. Otherwise we will
+* never see the response.
+*/

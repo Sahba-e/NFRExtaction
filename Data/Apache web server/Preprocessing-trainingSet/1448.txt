@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_disk.c
+member
+/*
+* Consider eliminating the next two directives in favor of
+* Ian's prime number hash...
+* key = hash_fn( r->uri)
+* filename = "e;/key % prime1 /key %prime2/key %prime3"e;
+*/

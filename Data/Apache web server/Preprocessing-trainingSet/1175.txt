@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+inline
+/* Allow "e;error-notes"e; string to be printed by ap_send_error_response()
+* Note; this goes nowhere, canned error response need an overhaul.
+*/

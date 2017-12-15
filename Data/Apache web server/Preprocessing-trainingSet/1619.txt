@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+inline
+/* We must ensure not to process more than what would fit in the
+* remaining of the destination buffer, including terminating NULL */

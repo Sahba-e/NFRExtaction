@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_substitute.c
+inline
+/*
+* If the number of buckets in ctx->passbb reaches an
+* "e;insane"e; level, we consume much memory for all the
+* buckets as such. So lets flush them down the chain
+* in this case and thus clear ctx->passbb. This frees
+* the buckets memory for further processing.
+* Usually this condition should not become true, but
+* it is a safety measure for edge cases.
+*/

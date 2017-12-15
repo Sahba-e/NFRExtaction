@@ -1,0 +1,17 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+member
+/* return number of chars of the scheme (incl. '://')
+* if the URI is absolute (includes a scheme etc.)
+* otherwise 0.
+* If supportqs is not NULL, we return a whether or not
+* the scheme supports a query string or not.
+*
+* NOTE: If you add new schemes here, please have a
+* look at escape_absolute_uri and splitout_queryargs.
+* Not every scheme takes query strings and some schemes
+* may be handled in a special way.
+*
+* XXX: we may consider a scheme registry, perhaps with
+* appropriate escape callbacks to allow other modules
+* to extend mod_rewrite at runtime.
+*/

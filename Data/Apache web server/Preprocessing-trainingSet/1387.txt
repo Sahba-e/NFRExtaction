@@ -1,0 +1,15 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+member
+/**
+* Take two sets of headers, sandwich them together, and apply the result to
+* r->headers_out.
+*
+* To complicate this, a header may be duplicated in either table. Should a
+* header exist in the top table, all matching headers will be removed from
+* the bottom table before the headers are combined. The Warning headers are
+* handled specially. Warnings are added rather than being replaced, while
+* in the case of revalidation 1xx Warnings are stripped.
+*
+* The Content-Type and Last-Modified headers are then re-parsed and inserted
+* into the request.
+*/

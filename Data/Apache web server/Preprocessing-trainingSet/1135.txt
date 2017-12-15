@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/lua_dbd.c
+section
+/*
+=============================================================================
+db:query(statement): Executes the given database query and returns the
+number of rows affected. If an error is encountered, returns nil as the
+first parameter and the error message as the second.
+=============================================================================
+*/

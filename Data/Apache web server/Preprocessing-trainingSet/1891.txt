@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_fcgi.c
+
+/* we've already passed along the headers, so now pass
+* through the content. we could simply continue to
+* setaside the content and not pass until we see the
+* 0 content-length (below, where we append the EOS),
+* but that could be a huge amount of data; so we pass
+* along smaller chunks
+*/

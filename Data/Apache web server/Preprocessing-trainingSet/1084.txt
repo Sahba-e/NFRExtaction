@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+inline
+/* We already read the message body (if any), so don't allow
+* the redirected request to think it has one. We can ignore
+* Transfer-Encoding, since we used REQUEST_CHUNKED_ERROR.
+*/

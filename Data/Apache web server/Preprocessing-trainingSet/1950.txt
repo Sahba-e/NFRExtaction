@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/session/mod_session_dbd.c
+
+/**
+* Clean out expired sessions.
+*
+* TODO: We need to figure out a way to clean out expired sessions from the database.
+* The monitor hook doesn't help us that much, as we have no handle into the
+* server, and so we need to come up with a way to do this safely.
+*/

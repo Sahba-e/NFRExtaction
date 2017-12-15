@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_socache_shmcb.c
+inline
+/* Iterate over the subcaches */

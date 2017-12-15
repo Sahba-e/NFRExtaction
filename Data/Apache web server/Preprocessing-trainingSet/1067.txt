@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_ext_filter.c
+member
+/* drain_available_output():
+*
+* if any data is available from the filter, read it and append it
+* to the bucket brigade
+*/

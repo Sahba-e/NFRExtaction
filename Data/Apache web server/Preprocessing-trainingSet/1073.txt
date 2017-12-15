@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_xml2enc.c
+inline
+/* either it's set to something we found or it's still the default */

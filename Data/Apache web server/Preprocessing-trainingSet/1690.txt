@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/* Don't remove this filter until after we have added the CHUNK filter.
+* Otherwise, f->next won't be the CHUNK filter and thus the first
+* brigade won't be chunked properly.
+*/

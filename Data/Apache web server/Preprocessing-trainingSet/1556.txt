@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+task
+/* ### We need to handle overflow better:
+* ### timeout will be <= 2^32 - 1
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+inline
+/* The balancer comparison is a bit trickier. Given the context
+* BalancerMember balancer://alias http://example.com/foo
+* ProxyPassReverse /bash balancer://alias/bar
+* translate url http://example.com/foo/bar/that to /bash/that
+*/

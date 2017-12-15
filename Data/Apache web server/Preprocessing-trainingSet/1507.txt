@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+task
+/*
+** ### technically, we should insert empty properties. dunno offhand
+** ### what part of the spec said this, but it was essentially thus:
+** ### "e;the properties should be defined, but may have no value"e;.
+*/

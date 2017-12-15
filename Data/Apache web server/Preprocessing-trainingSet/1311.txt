@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_scan.c
+member
+/* C99 says to define __STDC_LIMIT_MACROS before including stdint.h,
+* if you want the limit (max/min) macros for int types.
+*/

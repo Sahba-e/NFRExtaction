@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/* put all the standard methods into the registry hash to ease the
+mapping operations between name and number */

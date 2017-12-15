@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_reflector.c
+inline
+/*
+* Sometimes we'll get in a state where the input handling has
+* detected an error where we want to drop the connection, so if
+* that's the case, don't read the data as that is what we're trying
+* to avoid.
+*
+* This function is also a no-op on a subrequest.
+*/

@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+inline
+/* Send an error bucket, though the proxy currently has no
+* special handling for error buckets and ignores this. */

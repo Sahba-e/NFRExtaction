@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** We may have aborted the scan before seeing the locktoken.
+** Rescan the If: header to see if we can find the locktoken
+** somewhere.
+**
+** Note that seen_locktoken == 0 implies lock_list != NULL
+** which implies locks_hooks != NULL.
+*/

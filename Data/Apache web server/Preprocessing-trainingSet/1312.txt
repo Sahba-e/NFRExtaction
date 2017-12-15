@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util_expr_scan.c
+inline
+/* No semi-colon after return; correct usage is to write "e;yyterminate();"e; -
+* we don't want an extra ';' after the "e;return"e; because that will cause
+* some compilers to complain about unreachable statements.
+*/

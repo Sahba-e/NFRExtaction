@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/mpm_winnt.c
+inline
+/* Start the NT Service _NOW_ because the WinNT SCM is
+* expecting us to rapidly assume control of our own
+* process, the SCM will tell us our service name, and
+* may have extra StartService() command arguments to
+* add for us.
+*
+* The SCM will generally invoke the executable with
+* the c:\win\system32 default directory. This is very
+* lethal if folks use ServerRoot /foopath on windows
+* without a drive letter. Change to the default root
+* (path to apache root, above /bin) for safety.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_xml2enc.c
+inline
+/* this is only what we've already tried to convert.
+* The brigade is exhausted.
+* Save remaining data for next time round
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+member
+/* we don't handle chars wider than this that straddle
+* two buckets
+*/

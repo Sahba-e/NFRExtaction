@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/* XXX: this could be done at config time I'm sure... but I'm
+* confused by all this magic_rsl stuff. -djg */

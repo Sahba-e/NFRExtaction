@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/htcacheclean.c
+inline
+/* single data and header files may be deleted either in realclean
+* mode or if their modification timestamp is not within a
+* specified positive or negative offset to the current time.
+* this handling is necessary due to possible race conditions
+* between apache and this process
+*/

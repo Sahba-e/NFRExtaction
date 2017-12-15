@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_log.c
+
+/*
+* Limit the maximum length of the subject and issuer DN strings
+* in the log message. 300 characters should always be sufficient
+* for holding both the timestamp, module name, pid etc. stuff
+* at the beginning of the line and the trailing information about
+* serial, notbefore and notafter.
+*/

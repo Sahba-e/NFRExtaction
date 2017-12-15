@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ftp.c
+
+/*
+* Check for globbing characters in a path used as argument to
+* the FTP commands (SIZE, CWD, RETR, MDTM, ...).
+* ftpd assumes '\\' as a quoting character to escape special characters.
+* Returns: 0 (no globbing chars, or all globbing chars escaped), 1 (globbing chars)
+*/

@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/*
+* Also unset possible Content-Type headers in r->headers_out and
+* r->err_headers_out as they may be different to what we have received
+* from the cache.
+* Actually they are not needed as r->content_type set by
+* ap_set_content_type above will be used in the store_headers functions
+* of the storage providers as a fallback and the HTTP_HEADER filter
+* does overwrite the Content-Type header with r->content_type anyway.
+*/

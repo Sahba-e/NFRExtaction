@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_mplx.c
+inline
+/* Any remaining ios have handed out requests to workers that are
+* not done yet. Any operation they do on their assigned stream ios will
+* be errored ECONNRESET/ABORTED, so that should find out pretty soon.
+*/

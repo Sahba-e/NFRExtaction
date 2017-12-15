@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/aaa/mod_auth_digest.c
+member
+/*
+* Authorization header parser code
+*/

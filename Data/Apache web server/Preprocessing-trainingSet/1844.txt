@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_usertrack.c
+
+/*
+* The harder case - stolen from mod_expires
+*
+* CookieExpires "e;[plus] {<num> <type>}*"e;
+*/

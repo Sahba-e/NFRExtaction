@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/*
+* We do health-checks only if that (sub)module is loaded in. This
+* allows for us to continue as is w/o requiring mod_watchdog for
+* those implementations which aren't using health checks
+*/

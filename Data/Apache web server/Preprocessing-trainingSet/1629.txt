@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+inline
+/*
+* If we already know the size of the response, we can skip
+* compression on responses smaller than the compression overhead.
+* However, if we compress, we must initialize deflate_out before
+* calling ap_pass_brigade() for the first time. Otherwise the
+* headers will be sent to the client without
+* "e;Content-Encoding: gzip"e;.
+*/

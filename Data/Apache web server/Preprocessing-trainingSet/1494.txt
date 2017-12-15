@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/fs/repos.c
+inline
+/*
+** If we have a "e;not so bad"e; error, then it might need to go into a
+** multistatus response.
+**
+** For a MOVE, it will always go into the multistatus. It could be
+** that everything has been moved *except* for the root. Using a
+** multistatus (with no errors for the other resources) will signify
+** this condition.
+**
+** For a COPY, we are traversing in a prefix fashion. If the root fails,
+** then we can just bail out now.
+*/

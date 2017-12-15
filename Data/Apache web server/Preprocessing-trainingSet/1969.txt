@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/*
+* Enable SNI for backend requests. Make sure we don't do it for
+* pure SSLv3 connections, and also prevent IP addresses
+* from being included in the SNI extension. (OpenSSL would simply
+* pass them on, but RFC 6066 is quite clear on this: "e;Literal
+* IPv4 and IPv6 addresses are not permitted"e;.)
+*/

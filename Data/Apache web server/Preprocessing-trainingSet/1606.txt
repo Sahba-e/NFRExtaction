@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/* This routine is used to actually process the connection that was received.
+* Only protocol modules should implement this hook, as it gives them an
+* opportunity to replace the standard HTTP processing with processing for
+* some other protocol. Both echo and POP3 modules are available as
+* examples.
+*
+* This is a RUN_FIRST hook.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_conn.c
+inline
+/* This works for mpm_worker so far. Other mpm modules have
+* different needs, unfortunately. The most interesting one
+* being mpm_event...
+*/

@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/*
+* p->name is now the true parent URI.
+* testpath is a crafted lie, so that the syntax '/some/..'
+* (or simply '..')be used to describe 'up' from '/some/'
+* when processeing IndexIgnore, and Icon|Alt|Desc configs.
+*/

@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine is called to check the authentication information sent with
+* the request (such as looking up the user in a database and verifying that
+* the [encrypted] password sent matches the one in the database).
+*
+* This is a RUN_FIRST hook. The return value is OK, DECLINED, or some
+* HTTP_mumble error (typically HTTP_UNAUTHORIZED).
+*/

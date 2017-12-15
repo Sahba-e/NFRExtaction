@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** We found a match! We're set... none of the If: header
+** assertions apply (implicit success), and the If: header
+** specified the locktoken somewhere. We're done.
+*/

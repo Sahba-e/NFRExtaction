@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+member
+/*
+* Send a "e;standardized"e; error response based on the error's namespace & tag
+*/

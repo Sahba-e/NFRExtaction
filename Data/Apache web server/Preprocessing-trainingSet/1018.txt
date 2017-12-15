@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** This error occurred on the parent resource. This implies that
+** we have to create a multistatus response (to report the error
+** against a URI other than the Request-URI). "e;Convert"e; this error
+** into a multistatus response.
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* We decline operation in various situations...
+* - SSLOptions +FakeBasicAuth not configured
+* - r->user already authenticated
+* - ssl not enabled
+* - client did not present a certificate
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* One or more resources had errors. If depth was zero, convert
+* response to simple error, else make sure there is an
+* overall error to pass to dav_handle_err()
+*/

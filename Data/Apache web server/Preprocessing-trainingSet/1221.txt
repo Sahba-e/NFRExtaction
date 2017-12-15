@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+inline
+/*
+* Set the timeout also for the internal OpenSSL cache, because this way
+* our inter-process cache is consulted only when it's really necessary.
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_reqtimeout.c
+inline
+/*
+* Also, we must not allow keep-alive requests, as
+* ap_finalize_protocol() may ignore our error status (if the timeout
+* happened on a request body that is discarded).
+*/

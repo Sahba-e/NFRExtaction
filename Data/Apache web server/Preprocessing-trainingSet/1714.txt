@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_from_h1.c
+inline
+/* This is a hack, but I can't find anyway around it. The idea is that
+* we don't want to send out 0 Content-Lengths if it is a head request.
+* This happens when modules try to outsmart the server, and return
+* if they see a HEAD request. Apache 1.3 handlers were supposed to
+* just return in that situation, and the core handled the HEAD. In
+* 2.0, if a handler returns, then the core sends an EOS bucket down
+* the filter stack, and the content-length filter computes a C-L of
+* zero and that gets put in the headers, and we end up sending a
+* zero C-L to the client. We can't just remove the C-L filter,
+* because well behaved 2.0 handlers will send their data down the stack,
+* and we will compute a real C-L for the head request. RBB
+*/

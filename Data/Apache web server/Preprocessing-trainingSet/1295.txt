@@ -1,0 +1,16 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+member
+/*****************************************************************
+*
+* Getting and checking directory configuration. Also checks the
+* FollowSymlinks and FollowSymOwner stuff, since this is really the
+* only place that can happen (barring a new mid_dir_walk callout).
+*
+* We can't do it as an access_checker module function which gets
+* called with the final per_dir_config, since we could have a directory
+* with FollowSymLinks disabled, which contains a symlink to another
+* with a .htaccess file which turns FollowSymLinks back on --- and
+* access in such a case must be denied. So, whatever it is that
+* checks FollowSymLinks needs to know the state of the options as
+* they change, all the way down.
+*/

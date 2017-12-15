@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* The group entry we want to attach our SGL to doesn't exist.
+* We only got here if we verified this DN was actually a group
+* based on the objectClass, but we can't call the compare function
+* while we already hold the cache lock -- only the insert.
+*/

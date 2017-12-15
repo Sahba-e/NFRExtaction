@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/*
+* own command line parser for RewriteRule and RewriteCond,
+* which doesn't have the '\\' problem.
+* (returns true on error)
+*
+* XXX: what an inclined parser. Seems we have to leave it so
+* for backwards compat. *sigh*
+*/

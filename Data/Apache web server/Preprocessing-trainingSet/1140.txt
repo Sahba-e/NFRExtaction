@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_dir.c
+inline
+/* The logic of this function is basically cloned and simplified
+* from fixup_dir below. See the comments there.
+*/

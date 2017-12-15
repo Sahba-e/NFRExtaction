@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* cache provider wants more data before passing the brigade
+* upstream, oblige the provider by leaving to fetch more.
+*/

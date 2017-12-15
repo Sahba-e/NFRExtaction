@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+inline
+/*
+** Check if the timeout is not, for any reason, already elapsed.
+** (e.g., because of a large collection, or disk under heavy load...)
+*/

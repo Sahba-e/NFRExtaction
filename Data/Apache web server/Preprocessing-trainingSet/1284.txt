@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm_unix.c
+inline
+/* gave it our best shot, but alas... If this really
+* is a child we are trying to kill and it really hasn't
+* exited, we will likely fail to bind to the port
+* after the restart.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* The request_rec pointer is passed in here only to ensure that the
+* filter chain is modified correctly when doing a TLS upgrade. It
+* must *not* be used otherwise. */

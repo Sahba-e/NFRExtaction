@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_io.c
+inline
+/* Let's move the buckets from the request processing in here, so
+* that the main thread can read them when it has time/capacity.
+*
+* Move at most "e;maxlen"e; memory bytes. If buckets remain, it is
+* the caller's responsibility to take care of this.
+*
+* We allow passing of file buckets as long as we do not have too
+* many open files already buffered. Otherwise we will run out of
+* file handles.
+*/

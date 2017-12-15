@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_autoindex.c
+inline
+/* KLUDGE --- make the sub_req lookups happen in the right directory.
+* Fixing this in the sub_req_lookup functions themselves is difficult,
+* and would probably break virtual includes...
+*/

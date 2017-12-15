@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_win32.c
+inline
+/* sign extension won't hurt us here */

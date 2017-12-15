@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_config.c
+
+/* ### Having a separate mode for this seems logically
+* unnecessary; the stated purpose of sending non-empty
+* session IDs would be better fixed in OpenSSL or simply
+* doing it by default if "e;none"e; is used. */

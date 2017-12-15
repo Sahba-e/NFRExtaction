@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* Refresh request
+* ### Assumption: We can renew multiple locks on the same resource
+* ### at once. First harvest all the positive lock-tokens given in
+* ### the If header. Then modify the lock entries for this resource
+* ### with the new Timeout val.
+*/

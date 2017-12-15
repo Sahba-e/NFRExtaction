@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/netware/mod_nw_ssl.c
+inline
+/* No need to ensure that this is a server with optional SSL, the filter
+* is only inserted if that is true.
+*/

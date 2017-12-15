@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* ### hrm. if we return HTTP_METHOD_NOT_ALLOWED, then an Allow header
+* ### is sent; it will need the other allowed states; since the default
+* ### handler is not called on error, then it doesn't add the other
+* ### allowed states, so we must
+*/

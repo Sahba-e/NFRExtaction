@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/* if no-cache, we can't serve from the cache, but we may store to the
+* cache.
+*/

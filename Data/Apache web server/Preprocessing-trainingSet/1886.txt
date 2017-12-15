@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_balancer.c
+
+/* Manages the loadfactors and member status
+* The balancer, worker and nonce are obtained from
+* the request args (?b=...&w=...&nonce=....).
+* All other params are pulled from any POST
+* data that exists.
+* TODO:
+* /.../<whatever>/balancer/worker/nonce
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+section
+/* ---------------------------------------------------------------
+**
+** Functions dealing with lock-null resources
+**
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ftp.c
+
+/*
+* converts a series of buckets into a string
+* XXX: BillS says this function performs essentially the same function as
+* ap_rgetline() in protocol.c. Deprecate this function and use ap_rgetline()
+* instead? I think ftp_string_read() will not work properly on non ASCII
+* (EBCDIC) machines either.
+*/

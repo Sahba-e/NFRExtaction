@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/*
+* Note that this handles what I gather is the "e;old format"e;,
+*
+* Accept: text/html text/plain moo/zot
+*
+* without any compatibility kludges --- if the token after the
+* MIME type begins with a semicolon, we know we're looking at parms,
+* otherwise, we know we aren't. (So why all the pissing and moaning
+* in the CERN server code? I must be missing something).
+*/

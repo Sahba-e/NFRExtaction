@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl_ct.c
+
+/* Hmmm... Is this actually called if the client doesn't include
+* the extension in the ClientHello? I don't think so.
+*/

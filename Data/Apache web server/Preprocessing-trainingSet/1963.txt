@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_init.c
+
+/*
+* workaround for those OpenSSL versions where SSL_CTX_get0_certificate
+* is not yet available: create an SSL struct which we dispose of
+* as soon as we no longer need access to the cert. (Strictly speaking,
+* SSL_CTX_get0_certificate does not depend on the SSL_CONF stuff,
+* but there's no reliable way to check for its existence, so we
+* assume that if SSL_CONF is available, it's OpenSSL 1.0.2 or later,
+* and SSL_CTX_get0_certificate is implemented.)
+*/

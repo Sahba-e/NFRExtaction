@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* We decline when we are in a subrequest. The Authorization header
+* would already be present if it was added in the main request.
+*/

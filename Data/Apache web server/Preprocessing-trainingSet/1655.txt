@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_substitute.c
+member
+/*
+* We want to limit the memory usage in a way that is predictable.
+* Therefore we limit the resulting length of the line.
+* This is the default value.
+*/

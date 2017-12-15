@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm_unix.c
+inline
+/* The child already died - log the termination status if
+* necessary: */

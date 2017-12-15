@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/mod_lua.c
+task
+/* You can be unhappy now.
+*
+* This is uncool.
+*
+* When you create a <Section handler in httpd, the only 'easy' way to create
+* a directory context is to parse the section, and convert it into a 'normal'
+* Configureation option, and then collapse the entire section, in memory,
+* back into the parent section -- from which you can then get the new directive
+* invoked.... anyways. evil. Rici taught me how to do this hack :-)
+*/

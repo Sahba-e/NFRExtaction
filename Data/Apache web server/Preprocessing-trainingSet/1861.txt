@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/* XXX: What about case insensitive matching ???
+* Compare regex, fnmatch or string as appropriate
+* If the entry doesn't relate, then continue
+*/

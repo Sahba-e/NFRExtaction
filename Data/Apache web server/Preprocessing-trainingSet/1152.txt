@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+member
+/*
+* check that a subrequest won't cause infinite recursion
+*
+* either not in a subrequest, or in a subrequest
+* and URIs aren't NULL and sub/main URIs differ
+*/

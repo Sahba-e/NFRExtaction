@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_speling.c
+inline
+/*
+* The spdist() should have found the majority of the misspelled
+* requests. It is of questionable use to continue looking for
+* files with the same base name, but potentially of totally wrong
+* type (index.html <-> index.db).
+*
+* If you're using MultiViews, and have a file named foobar.html,
+* which you refer to as "e;foobar"e;, and someone tried to access
+* "e;Foobar"e;, without CheckBasenameMatch, mod_speling won't find it,
+* because it won't find anything matching that spelling.
+* With the extension-munging, it would locate "e;foobar.html"e;.
+*/

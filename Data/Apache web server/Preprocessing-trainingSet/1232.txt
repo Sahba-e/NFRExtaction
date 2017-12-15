@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/core.c
+header
+/* Server core module... This module provides support for really basic
+* server operations, including options and commands which control the
+* operation of other modules. Consider this the bureaucracy module.
+*
+* The core module also defines handlers, etc., to handle just enough
+* to allow a server with the core module ONLY to actually serve documents.
+*
+* This file could almost be mod_core.c, except for the stuff which affects
+* the http_conf_globals.
+*/

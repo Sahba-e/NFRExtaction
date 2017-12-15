@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_ident.c
+
+/*
+* errors from connect usually imply the remote machine doesn't support
+* the service; don't log such an error
+*/

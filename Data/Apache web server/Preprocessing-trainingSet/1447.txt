@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_disk.c
+inline
+/* have we reached the limit of how much we're prepared to write in one
+* go? If so, leave, we'll get called again. This prevents us from trying
+* to swallow too much data at once, or taking so long to write the data
+* the client times out.
+*/

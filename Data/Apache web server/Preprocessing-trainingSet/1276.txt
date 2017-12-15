@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/winnt/service.c
+inline
+/* Now we have the mpm_service_name arg, and the mpm_runservice_nt()
+* call appended the arguments passed by StartService(), so it's
+* time to _prepend_ the default arguments for the server from
+* the service's default arguments (all others override them)...
+*/

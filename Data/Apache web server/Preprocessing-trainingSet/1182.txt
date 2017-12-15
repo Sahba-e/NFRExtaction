@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_ajp.c
+inline
+/* If we are overriding the errors, we must not send anything to
+* the client, especially as the brigade already contains headers.
+* So do nothing here, and it will be cleaned up below.
+*/

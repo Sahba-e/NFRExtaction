@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+
+/* parse the argument line ourself
+* a1 .. a3 are substrings of str, which is a fresh copy
+* of the argument line. So we can use a1 .. a3 without
+* copying them again.
+*/

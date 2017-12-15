@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_userdir.c
+
+/*
+* Crummy hack. Need to figure out whether we have been
+* redirected to a URL or to a file on some drive. Since I
+* know of no protocols that are a single letter, ignore
+* a : as the first or second character, and assume a file
+* was specified
+*/

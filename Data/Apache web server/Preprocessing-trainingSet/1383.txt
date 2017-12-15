@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* Deliberately hold off sending 'just the headers' to begin to
+* accumulate the body and speed up the overall response, or at
+* least wait for the end the session.
+*/

@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/* folks decided they didn't want the error code in the H1 text */

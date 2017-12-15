@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* For a given variant, find the best matching Accept: header
+* and assign the Accept: header's quality value to the
+* mime_type_quality field of the variant, for later use in
+* determining the best matching variant.
+*/

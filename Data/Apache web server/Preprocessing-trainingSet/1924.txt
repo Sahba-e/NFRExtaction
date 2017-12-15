@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_serf.c
+
+/**
+* This works right now because all timers are invoked in the single listener
+* thread in the Event MPM -- the same thread that serf callbacks are made
+* from, so we don't technically need a mutex yet, but with the Simple MPM,
+* invocations are made from worker threads, and we need to figure out locking
+*/

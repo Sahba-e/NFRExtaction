@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_ipc.c
+inline
+/* Sleep for a millisecond to make it a little harder for
+* httpd children to acquire the lock.
+*/

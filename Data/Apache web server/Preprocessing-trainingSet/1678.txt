@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+inline
+/* Keep writing data to the child until done or too much time
+* elapses with no progress or an error occurs.
+*/

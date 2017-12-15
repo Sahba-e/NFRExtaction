@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/*
+* Remove this item from the cache if its expired. If the sent
+* password doesn't match the storepassword, the entry will
+* be removed and readded later if the credentials pass
+* authentication.
+*/

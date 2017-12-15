@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/props.c
+member
+/*
+** There is some rough support for writable DAV:getcontenttype and
+** DAV:getcontentlanguage properties. If this #define is (1), then
+** this support is disabled.
+**
+** We are disabling it because of a lack of support in GET and PUT
+** operations. For GET, it would be "e;expensive"e; to look for a propdb,
+** open it, and attempt to extract the Content-Type and Content-Language
+** values for the response.
+** (Handling the PUT would not be difficult, though)
+*/

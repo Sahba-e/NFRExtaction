@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl_ct.c
+
+/* perform quick sanity check of server SCT(s) during handshake;
+* errors should result in fatal alert
+*/

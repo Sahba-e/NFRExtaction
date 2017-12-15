@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/loggers/mod_log_config.c
+
+/*
+* If we were given two arguments, the second is a name to be given to the
+* format. This syntax just defines the nickname - it doesn't actually
+* make the format the default.
+*/

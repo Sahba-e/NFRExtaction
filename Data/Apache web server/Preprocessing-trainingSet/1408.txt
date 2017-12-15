@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* pass the brigade in into the cache provider, which is then
+* expected to move cached buckets to the out brigade, for us
+* to pass up the filter stack. repeat until in is empty, or
+* we fail.
+*/

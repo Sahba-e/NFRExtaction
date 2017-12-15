@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache_socache.c
+member
+/*
+* cache_socache_object_t
+* Pointed to by cache_object_t::vobj
+*/

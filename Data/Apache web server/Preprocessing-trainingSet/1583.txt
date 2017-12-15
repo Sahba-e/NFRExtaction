@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util_lock.c
+member
+/*
+** dav_get_resource_state: Returns the state of the resource
+** r->filename: DAV_RESOURCE_NULL, DAV_RESOURCE_LOCK_NULL,
+** or DAV_RESOURCE_EXIST.
+**
+** Returns DAV_RESOURCE_ERROR if an error occurs.
+*/

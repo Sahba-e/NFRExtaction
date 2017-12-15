@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/htcacheclean.c
+inline
+/* we can't sleep the whole delay time here apiece as this is racy
+* with respect to interrupt delivery - think about what happens
+* if we have tested for an interrupt, then get scheduled
+* before the apr_sleep() call and while waiting for the cpu
+* we do get an interrupt
+*/

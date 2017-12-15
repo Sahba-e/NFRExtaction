@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_speling.c
+
+/*
+* If we end up with a "e;fixed"e; URL which is identical to the
+* requested one, we must have found a broken symlink or some such.
+* Do _not_ try to redirect this, it causes a loop!
+*/

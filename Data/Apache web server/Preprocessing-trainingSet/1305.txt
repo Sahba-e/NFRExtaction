@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/util.c
+inline
+/* APR_CHARSET_EBCDIC */

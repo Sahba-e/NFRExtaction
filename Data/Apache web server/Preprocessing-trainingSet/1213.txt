@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_init.c
+member
+/*
+* Enable/disable SSLProtocol. If the mod_ssl enables protocol
+* which is disabled by default by OpenSSL, show a warning.
+* "e;option"e; is for example SSL_OP_NO_SSLv3.
+*/

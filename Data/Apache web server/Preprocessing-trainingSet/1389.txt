@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/* If the cache gave us a Last-Modified header, we can't just
+* pass it on blindly because of restrictions on future values.
+*/

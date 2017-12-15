@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_deflate.c
+inline
+/*
+* There is nothing worth consuming for zlib left, because it is
+* either garbage data or the data has been copied to the
+* validation buffer (processing validation data is no business
+* for zlib). So set ctx->stream.avail_in to zero to indicate
+* this to the following while loop.
+*/

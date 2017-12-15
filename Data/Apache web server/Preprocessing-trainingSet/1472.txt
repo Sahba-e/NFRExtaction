@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/database/mod_dbd.c
+inline
+/* we don't have a driver-specific error code, so we'll just pass
+* a "e;success"e; value and rely on the driver to ignore it
+*/

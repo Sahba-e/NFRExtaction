@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** ### bleck. we can't return errors for other URIs unless we have
+** ### a "e;response"e; ptr.
+*/

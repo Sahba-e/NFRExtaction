@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_from_h1.c
+inline
+/*
+* Since some clients choke violently on multiple Vary fields, or
+* Vary fields with duplicate tokens, combine any multiples and remove
+* any duplicates.
+*/

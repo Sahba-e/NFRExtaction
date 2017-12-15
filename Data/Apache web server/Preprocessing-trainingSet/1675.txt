@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/generators/mod_cgid.c
+member
+/* DEFAULT_CGID_LISTENBACKLOG controls the max depth on the unix socket's
+* pending connection queue. If a bunch of cgi requests arrive at about
+* the same time, connections from httpd threads/processes will back up
+* in the queue while the cgid process slowly forks off a child to process
+* each connection on the unix socket. If the queue is too short, the
+* httpd process will get ECONNREFUSED when trying to connect.
+*/

@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+inline
+/* sub-requests never use keepalives, and mustn't pass request bodies.
+* Because the new logic looks at input_brigade, we will self-terminate
+* input_brigade and jump past all of the request body logic...
+* Reading anything with ap_get_brigade is likely to consume the
+* main request's body or read beyond EOS - which would be unplesant.
+*
+* An exception: when a kept_body is present, then subrequest CAN use
+* pass request bodies, and we DONT skip the body.
+*/

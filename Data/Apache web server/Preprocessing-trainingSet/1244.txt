@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/listen.c
+inline
+/* Although we've removed ourselves from the list,
+* we need to make sure that the next iteration won't
+* consider "e;previous"e; a working IPv6 '::' socket.
+* Changing the family is enough to make sure the
+* conditions before make_sock() fail.
+*/

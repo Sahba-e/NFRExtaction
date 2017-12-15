@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_include.c
+inline
+/*
+* We could also make the SSI vars available as %{...} style variables
+* (AP_EXPR_FUNC_VAR), but this would create problems if we ever want
+* to cache parsed expressions for performance reasons.
+*/

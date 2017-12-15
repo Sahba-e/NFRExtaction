@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/mod_ssl_ct.c
+inline
+/* The key is critical to avoiding validating and queueing of
+* the same stuff over and over.
+*
+* Is there any cheaper check than server cert and SCTs all exactly
+* the same as before?
+*/

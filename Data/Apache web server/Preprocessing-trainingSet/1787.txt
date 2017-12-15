@@ -1,0 +1,16 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Find language. We match if either the variant
+* language tag exactly matches the language range
+* from the accept header, or a prefix of the variant
+* language tag up to a '-' character matches the
+* whole of the language range in the Accept-Language
+* header. Note that HTTP/1.x allows any number of
+* '-' characters in a tag or range, currently only
+* tags with zero or one '-' characters are defined
+* for general use (see rfc1766).
+*
+* We only use language range in the Accept-Language
+* header the best match for the variant language tag
+* if it is longer than the previous best match.
+*/

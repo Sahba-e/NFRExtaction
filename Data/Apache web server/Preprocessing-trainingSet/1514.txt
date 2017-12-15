@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/lock/locks.c
+task
+/* ### we should be refreshing direct AND (resolved) indirect locks! */

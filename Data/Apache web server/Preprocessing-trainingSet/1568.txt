@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** We had a matching state list, but the user agent did not specify one
+** of this resource's locktokens. Tell them so.
+**
+** Note that we need to special-case the message on whether a "e;dummy"e;
+** header exists. If it exists, yet we didn't see a needed locktoken,
+** then that implies the dummy header (Lock-Token header) did NOT
+** specify one of this resource's locktokens. (this implies something
+** in the real If: header matched)
+**
+** We want to note the 400 (Bad Request) in favor of a 423 (Locked).
+*/

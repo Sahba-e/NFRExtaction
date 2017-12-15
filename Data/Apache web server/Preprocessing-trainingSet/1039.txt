@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+section
+/* returns NULL, the directive was processed; if it returns DECLINE_CMD, */

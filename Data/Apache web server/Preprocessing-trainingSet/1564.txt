@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** We had a NORMAL state, meaning that we should have
+** found the State-Token within the locks on this
+** resource. We didn't, so this state_list must fail.
+*/

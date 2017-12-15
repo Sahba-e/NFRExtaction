@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* if a query string is present but no explicit expiration time,
+* don't cache it (RFC 2616/13.9 & 13.2.1)
+*/

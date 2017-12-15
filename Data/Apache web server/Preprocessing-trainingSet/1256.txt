@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/event/fdqueue.c
+member
+/**
+* Retrieves the next available socket from the queue. If there are no
+* sockets available, it will block until one becomes available.
+* Once retrieved, the socket is placed into the address specified by
+* 'sd'.
+*/

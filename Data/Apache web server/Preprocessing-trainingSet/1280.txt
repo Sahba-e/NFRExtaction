@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/mpm/worker/worker.c
+inline
+/* Um, is this _probably_ not an error, if the user has
+* tried to do a shutdown twice quickly, so we won't
+* worry about reporting it.
+*/

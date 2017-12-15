@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/metadata/mod_mime_magic.c
+
+/*
+* What we want here is: v = strncmp(m->value.s, p->s, m->vallen);
+* but ignoring any nulls. bcmp doesn't give -/+/0 and isn't
+* universally available anyway.
+*/

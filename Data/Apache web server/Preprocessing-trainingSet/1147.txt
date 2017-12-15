@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* Sort the variants into a canonical order. The negotiation
+* result sometimes depends on the order of the variants. By
+* sorting the variants into a canonical order, rather than using
+* the order in which readdir() happens to return them, we ensure
+* that the negotiation result will be consistent over filesystem
+* backup/restores and over all mirror sites.
+*/

@@ -1,0 +1,13 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* Check If-Headers and existing locks.
+*
+* Note: depth == 0 normally requires no multistatus response. However,
+* if we pass DAV_VALIDATE_PARENT, then we could get an error on a URI
+* other than the Request-URI, thereby requiring a multistatus.
+*
+* If the resource is a locknull resource, then the UNLOCK will affect
+* the parent collection (much like a delete). For that case, we must
+* validate the parent resource's conditions.
+*/

@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_charset_lite.c
+member
+/* extended error status codes; this is used in addition to an apr_status_t to
+* track errors in the translation filter
+*/

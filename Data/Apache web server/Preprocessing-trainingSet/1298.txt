@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/request.c
+inline
+/*
+* Now build r->filename component by component, starting
+* with the root (on Unix, simply "e;/"e;). We will make a huge
+* assumption here for efficiency, that any canonical path
+* already given included a canonical root.
+*/

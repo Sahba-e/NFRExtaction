@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/unix/mod_privileges.c
+member
+/* We need to set privileges before mod_unixd,
+* 'cos otherwise setuid will wipe our privilege to do so
+*/

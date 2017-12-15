@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_session.c
+inline
+/* Not good. The connection is being torn down and we have
+* not sent a goaway. This is considered a protocol error and
+* the client has to assume that any streams "e;in flight"e; may have
+* been processed and are not safe to retry.
+* As clients with idle connection may only learn about a closed
+* connection when sending the next request, this has the effect
+* that at least this one request will fail.
+*/

@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* Lynx 2.7 and 2.8 send 'negotiate: trans' even though they
+* do not support transparent content negotiation, so for Lynx we
+* ignore the negotiate header when its contents are exactly "e;trans"e;.
+* If future versions of Lynx ever need to say 'negotiate: trans',
+* they can send the equivalent 'negotiate: trans, trans' instead
+* to avoid triggering the workaround below.
+*/

@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* We need to reset backend->close now, since ap_proxy_http_prefetch() set
+* it to disable the reuse of the connection *after* this request (no keep-
+* alive), not to close any reusable connection before this request. However
+* assure what is expected later by using a local flag and do the right thing
+* when ap_proxy_connect_backend() below provides the connection to close.
+*/

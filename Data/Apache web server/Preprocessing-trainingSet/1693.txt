@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/* AP_FILTER_ERROR means a filter has responded already,
+* we are DONE.
+*/

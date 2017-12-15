@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/balancers/mod_lbmethod_byrequests.c
+
+/* Take into calculation only the workers that are
+* not in error state or not disabled.
+*/

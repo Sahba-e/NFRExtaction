@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/*
+* The case where OpenSSL has recognized a HTTP request:
+* This means the client speaks plain HTTP on our HTTPS port.
+* ssl_io_filter_error will disable the ssl filters when it
+* sees this status code.
+*/

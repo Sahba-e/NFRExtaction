@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/config.c
+member
+/* A list of the merge_dir_config functions of all loaded modules, sorted
+* by module_index.
+* Using this list in ap_merge_per_dir_configs() is faster than following
+* the module->next linked list because of better memory locality (resulting
+* in better cache usage).
+*/

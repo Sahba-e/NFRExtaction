@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Save the original headers in here and restore them when leaving, since
+* we will apply proxy purpose only modifications (eg. clearing hop-by-hop
+* headers, add Via or X-Forwarded-* or Expect...), whereas the originals
+* will be needed later to prepare the correct response and logging.
+*
+* Note: We need to take r->pool for apr_table_copy as the key / value
+* pairs in r->headers_in have been created out of r->pool and
+* p might be (and actually is) a longer living pool.
+* This would trigger the bad pool ancestry abort in apr_table_copy if
+* apr is compiled with APR_POOL_DEBUG.
+*/

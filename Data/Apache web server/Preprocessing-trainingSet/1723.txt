@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_mplx.c
+inline
+/* In case a close comes before a response was created,
+* insert an error one so that our streams can properly
+* reset.
+*/

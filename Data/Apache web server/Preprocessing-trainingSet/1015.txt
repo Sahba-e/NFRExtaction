@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/util.c
+inline
+/*
+** Hrm. IE5 will pass unqualified hostnames for both the
+** Host: and Destination: headers. This breaks the
+** http_vhost.c::matches_aliases function.
+**
+** For now, qualify unqualified comp.hostnames with
+** r->server->server_hostname.
+**
+** ### this is a big hack. Apache should provide a better way.
+** ### maybe the admin should list the unqualified hosts in a
+** ### <ServerAlias> block?
+*/

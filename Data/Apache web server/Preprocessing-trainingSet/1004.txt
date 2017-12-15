@@ -1,0 +1,12 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+member
+/*
+* Call <func> for each context. This can stop when an error occurs, or
+* simply iterate through the whole list.
+*
+* Returns 1 if an error occurs (and the iteration is aborted). Returns 0
+* if all elements are processed.
+*
+* If <reverse> is true (non-zero), then the list is traversed in
+* reverse order.
+*/

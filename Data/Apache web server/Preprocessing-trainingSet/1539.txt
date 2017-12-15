@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* ### check RFC. I believe the DAV:merge element may contain any
+### element also allowed within DAV:checkout. need to extract them
+### here, and pass them along.
+### if so, then refactor the CHECKOUT method handling so we can reuse
+### the code. maybe create a structure to hold CHECKOUT parameters
+### which can be passed to the checkout() and merge() hooks. */

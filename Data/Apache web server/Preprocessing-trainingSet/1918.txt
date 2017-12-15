@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* Only close backend if we haven't got all from the
+* backend. Furthermore if *backend_ptr is NULL it is no
+* longer safe to fiddle around with backend as it might
+* be already in use by another thread.
+*/

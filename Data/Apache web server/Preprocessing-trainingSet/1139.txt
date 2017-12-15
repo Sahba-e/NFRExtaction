@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_dir.c
+inline
+/* XXX: if FallbackResource points to something that doesn't exist,
+* this may recurse until it hits the limit for internal redirects
+* before returning an Internal Server Error.
+*/

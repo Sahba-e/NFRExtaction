@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+inline
+/* Did we just update the cached headers on a revalidated response?
+*
+* If so, we can now decide what to serve to the client. This is done in
+* the same way as with a regular response, but conditions are now checked
+* against the cached or merged response headers.
+*/

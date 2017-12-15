@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_serf.c
+
+/**
+* XXXXX: If I understood serf buckets better, it might be possible to not
+* copy all of the data here, and better stream it to the client.
+**/

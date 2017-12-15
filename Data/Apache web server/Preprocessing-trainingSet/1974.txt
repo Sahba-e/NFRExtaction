@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_io.c
+
+/* Iterate through the prefix segment. For non-fatal errors
+* in this loop it is safe to break out and fall back to the
+* normal path of sending the buffer + remaining buckets in
+* brigade. */

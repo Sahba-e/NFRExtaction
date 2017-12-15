@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+inline
+/*
+* Remove the 'Vary' header field if the client can't handle it.
+* Since this will have nasty effects on HTTP/1.1 caches, force
+* the response into HTTP/1.0 mode.
+*
+* Note: the force-response-1.0 should come before the call to
+* basic_http_header_check()
+*/

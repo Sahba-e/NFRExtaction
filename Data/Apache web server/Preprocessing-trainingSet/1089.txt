@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/* Otherwise, we need to indicate that we will be closing this
+* connection immediately after the current response.
+*
+* We only really need to send "e;close"e; to HTTP/1.1 clients, but we
+* always send it anyway, because a broken proxy may identify itself
+* as HTTP/1.0, but pass our request along with our HTTP/1.1 tag
+* to a HTTP/1.1 client. Better safe than sorry.
+*/

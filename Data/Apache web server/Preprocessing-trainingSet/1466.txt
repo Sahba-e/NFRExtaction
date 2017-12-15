@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/core/mod_macro.c
+inline
+/*
+Module hooks are request-oriented thus it does not suit configuration
+file utils a lot. I haven't found any clean hook to apply something
+before then after configuration file processing. Also what about
+.htaccess files?
+Thus I think that server/util.c or server/config.c
+would be a better place for this stuff.
+*/

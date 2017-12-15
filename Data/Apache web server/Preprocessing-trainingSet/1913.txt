@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* if we've already started loading headers_out, then
+* return what we've accumulated so far, in the hopes
+* that they are useful; also note that we likely pre-read
+* the first line of the response.
+*/

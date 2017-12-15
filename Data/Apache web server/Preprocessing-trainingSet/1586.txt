@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/debugging/mod_dumpio.c
+member
+/* consider up to 80 additional characters, and factor the longest
+* line length of all \xNN sequences; log_error cannot record more
+* than MAX_STRING_LEN characters.
+*/

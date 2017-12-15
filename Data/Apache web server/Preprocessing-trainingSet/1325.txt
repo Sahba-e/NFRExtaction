@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/support/rotatelogs.c
+member
+/* After a error, truncate the current file and write out an error
+* message, which must be contained in message. The process is
+* terminated on failure. */

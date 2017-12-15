@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy.c
+
+/*
+* In the regex case supplying a fake URL doesn't make sense as it
+* cannot be parsed anyway with apr_uri_parse later on in
+* ap_proxy_define_balancer / ap_proxy_update_balancer
+*/

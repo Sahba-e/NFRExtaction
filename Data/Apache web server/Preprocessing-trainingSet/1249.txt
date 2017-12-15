@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/server/log.c
+inline
+/* In 2.4 favor PROGRAM_ENV, accept "e;||prog"e; syntax for compatibility
+* and "e;|$cmd"e; to override the default.
+* Any 2.2 backport would continue to favor SHELLCMD_ENV so there
+* accept "e;||prog"e; to override, and "e;|$cmd"e; to ease conversion.
+*/

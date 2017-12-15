@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/props.c
+inline
+/*
+** ### if we have an error, and a rollback occurs, then the namespace
+** ### mods should not happen at all. Basically, the namespace management
+** ### is simply a bitch.
+*/

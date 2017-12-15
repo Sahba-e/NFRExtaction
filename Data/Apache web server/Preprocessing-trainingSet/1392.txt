@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_storage.c
+inline
+/*
+* Copy the scheme, ensuring that it is lower case. If the parsed uri
+* contains no string or if this is not a proxy request get the http
+* scheme for this request. As r->parsed_uri.scheme is not set if this
+* is a reverse proxy request, it is ensured that the cases
+* "e;no proxy request"e; and "e;reverse proxy request"e; are handled in the same
+* manner (see above why this is needed).
+*/

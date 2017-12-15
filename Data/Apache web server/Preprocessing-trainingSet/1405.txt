@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/mod_cache.c
+member
+/*
+* CACHE_OUT filter
+* ----------------
+*
+* Deliver cached content (headers and body) up the stack.
+*/

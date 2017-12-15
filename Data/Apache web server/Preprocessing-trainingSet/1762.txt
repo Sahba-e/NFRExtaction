@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/lua/lua_dbd.c
+
+/*
+=============================================================================
+db:select(statement): Queries the database for the given statement and
+returns the rows/columns found as a table. If an error is encountered,
+returns nil as the first parameter and the error message as the second.
+=============================================================================
+*/

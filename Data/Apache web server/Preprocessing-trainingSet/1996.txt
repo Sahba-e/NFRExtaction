@@ -1,0 +1,14 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/*
+* This callback function is executed when the TLS Application-Layer
+* Protocol Negotiation Extension (ALPN, RFC 7301) is triggered by the Client
+* Hello, giving a list of desired protocol names (in descending preference)
+* to the server.
+* The callback has to select a protocol name or return an error if none of
+* the clients preferences is supported.
+* The selected protocol does not have to be on the client list, according
+* to RFC 7301, so no checks are performed.
+* The client protocol list is serialized as length byte followed by ASCII
+* characters (not null-terminated), followed by the next protocol name.
+*/

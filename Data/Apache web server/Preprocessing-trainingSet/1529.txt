@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/*
+* Check If-Headers and existing locks.
+*
+* If this will create a locknull resource, then the LOCK will affect
+* the parent collection (much like a PUT/MKCOL). For that case, we must
+* validate the parent resource's conditions.
+*/

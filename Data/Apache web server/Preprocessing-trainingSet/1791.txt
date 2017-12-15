@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* We had no Accept-Encoding header, assume that all
+* encodings are acceptable with a low quality,
+* but we prefer no encoding if available.
+*/

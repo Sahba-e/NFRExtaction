@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* Time to start reading the appropriate amount of data,
+* and allow the administrator to tweak the number
+*/

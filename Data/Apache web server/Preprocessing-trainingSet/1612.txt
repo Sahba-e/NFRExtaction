@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine is called to perform any module-specific fixing of header
+* fields, et cetera. It is invoked just before any content-handler.
+*
+* This is a RUN_ALL HOOK.
+*/

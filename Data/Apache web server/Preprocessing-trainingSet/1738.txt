@@ -1,0 +1,3 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ldap/util_ldap.c
+inline
+/* Referral hop limit - only if referrals are enabled and a hop limit is explicitly requested */

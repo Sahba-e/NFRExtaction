@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/filters/mod_buffer.c
+inline
+/* further optimisation: if the buckets are already heap
+* buckets, and the buckets stay exactly APR_BUCKET_BUFF_SIZE
+* long (as they would be if we were reading bits of a
+* large bucket), then move the buckets instead of copying
+* them.
+*/

@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_rewrite.c
+member
+/* perform all the expansions on the input string
+* putting the result into a new string
+*
+* for security reasons this expansion must be performed in a
+* single pass, otherwise an attacker can arrange for the result
+* of an earlier expansion to include expansion specifiers that
+* are interpreted by a later expansion, producing results that
+* were not intended by the administrator.
+*/

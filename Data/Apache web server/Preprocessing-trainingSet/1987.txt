@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/ssl/ssl_engine_kernel.c
+
+/* TODO: this categorically fails changed cipher suite settings
+* on slave connections. We could do better by
+* - create a new SSL* from our SSL_CTX and set cipher suite there,
+* and retrieve ciphers, free afterwards
+* Modifying the SSL on a slave connection is no good.
+*/

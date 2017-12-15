@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/cache/cache_util.c
+inline
+/*
+* If no value is assigned to max-stale, then the client is willing
+* to accept a stale response of any age (RFC2616 14.9.3). We will
+* set it to one year in this case as this situation is somewhat
+* similar to a "e;never expires"e; Expires header (RFC2616 14.21)
+* which is set to a date one year from the time the response is
+* sent in this case.
+*/

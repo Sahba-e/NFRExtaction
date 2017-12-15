@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_request.c
+inline
+/* Ignore trailing blank lines (which must not be interpreted as
+* pipelined requests) up to the limit, otherwise we would block
+* on the next read without flushing data, and hence possibly delay
+* pending response(s) until the next/real request comes in or the
+* keepalive timeout expires.
+*/

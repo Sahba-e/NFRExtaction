@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_filters.c
+member
+/*
+* Since some clients choke violently on multiple Vary fields, or
+* Vary fields with duplicate tokens, combine any multiples and remove
+* any duplicates.
+*/

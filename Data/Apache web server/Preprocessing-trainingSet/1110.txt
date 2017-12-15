@@ -1,0 +1,11 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http2/h2_push.c
+member
+/**
+* Initialize the push diary by a cache digest as described in
+* https://datatracker.ietf.org/doc/draft-kazuho-h2-cache-digest/
+* .
+* @param diary the diary to set the digest into
+* @param data the binary cache digest
+* @param len the length of the cache digest
+* @return APR_EINVAL if digest was not successfully parsed
+*/

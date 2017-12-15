@@ -1,0 +1,4 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/dav/main/mod_dav.c
+inline
+/* assert: conf->provider != NULL
+(checked when conf->provider_name is set) */

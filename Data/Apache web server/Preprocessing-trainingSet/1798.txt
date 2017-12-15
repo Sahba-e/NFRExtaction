@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+
+/* alg_result is one of
+* alg_choice: a best variant is chosen
+* alg_list: no best variant is chosen
+*/

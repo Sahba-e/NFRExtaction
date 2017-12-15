@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/mappers/mod_negotiation.c
+inline
+/* This is possibly overkill for some servers, heck, we have
+* only 33 index.html variants in docs/docroot (today).
+* Make this configurable?
+*/

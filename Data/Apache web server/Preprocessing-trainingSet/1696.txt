@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+member
+/* Get the method number associated with the given string, assumed to
+* contain an HTTP method. Returns M_INVALID if not recognized.
+*
+* This is the first step toward placing method names in a configurable
+* list. Hopefully it (and other routines) can eventually be moved to
+* something like a mod_http_methods.c, complete with config stuff.
+*/

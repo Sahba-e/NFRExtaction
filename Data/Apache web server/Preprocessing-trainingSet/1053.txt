@@ -1,0 +1,29 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+section
+/*
+* Each function our module provides to handle a particular hook is
+* specified here. The functions are registered using
+* ap_hook_foo(name, predecessors, successors, position)
+* where foo is the name of the hook.
+*
+* The args are as follows:
+* name -> the name of the function to call.
+* predecessors -> a list of modules whose calls to this hook must be
+* invoked before this module.
+* successors -> a list of modules whose calls to this hook must be
+* invoked after this module.
+* position -> The relative position of this module. One of
+* APR_HOOK_FIRST, APR_HOOK_MIDDLE, or APR_HOOK_LAST.
+* Most modules will use APR_HOOK_MIDDLE. If multiple
+* modules use the same relative position, Apache will
+* determine which to call first.
+* If your module relies on another module to run first,
+* or another module running after yours, use the
+* predecessors and/or successors.
+*
+* The number in brackets indicates the order in which the routine is called
+* during request processing. Note that not all routines are necessarily
+* called (such as if a resource doesn't have access restrictions).
+* The actual delivery of content to the browser [9] is not handled by
+* a hook; see the handler declarations below.
+*/

@@ -1,0 +1,6 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Parse the host string to separate host portion from optional port.
+* Perform range checking on port.
+*/

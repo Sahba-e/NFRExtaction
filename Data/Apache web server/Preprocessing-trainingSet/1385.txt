@@ -1,0 +1,5 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/arch/win32/mod_isapi.c
+inline
+/* As the client returned no error, and if we did not error out
+* ourselves, trust dwHttpStatusCode to say something relevant.
+*/

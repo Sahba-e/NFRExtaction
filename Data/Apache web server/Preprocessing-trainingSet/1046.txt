@@ -1,0 +1,10 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/examples/mod_example_hooks.c
+member
+/*
+* This routine is called to perform any module-specific log file
+* openings. It is invoked just before the post_config phase
+*
+* The return value is OK, DECLINED, or HTTP_mumble. If we return OK, the
+* server will still call any remaining modules with an handler for this
+* phase.
+*/

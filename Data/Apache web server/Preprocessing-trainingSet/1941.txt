@@ -1,0 +1,9 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/proxy_util.c
+
+/*
+* Provide a string hashing function for the proxy.
+* We offer 2 methods: one is the APR model but we
+* also provide our own, based on either FNV or SDBM.
+* The reason is in case we want to use both to ensure no
+* collisions.
+*/

@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/proxy/mod_proxy_http.c
+
+/* Ensure we don't hit a wall where we have a buffer too small
+* for ap_get_brigade's filters to fetch us another bucket,
+* surrender once we hit 80 bytes less than MAX_MEM_SPOOL
+* (an arbitrary value.)
+*/

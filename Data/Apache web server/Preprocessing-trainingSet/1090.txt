@@ -1,0 +1,7 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/http/http_protocol.c
+inline
+/* For all HTTP/1.x responses for which we generate the message,
+* we need to avoid inheriting the "e;normal status"e; header fields
+* that may have been set by the request handler before the
+* error or redirect, except for Location on external redirects.
+*/

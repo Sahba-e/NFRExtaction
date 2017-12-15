@@ -1,0 +1,8 @@
+c:/Service Packs/apache/httpd-trunk/httpd-trunk/modules/core/mod_watchdog.c
+inline
+/* Sleep after we were locked
+* up to 1 second. Httpd can be
+* in the middle of shutdown, and
+* our child didn't yet received
+* the shutdown signal.
+*/
