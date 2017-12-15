@@ -1,0 +1,6 @@
+The goal of this study is to assist analysts in extracting relevant NFRs from comments available in source code of software systems using automated natural language processing (NLP). To meet this goal, we gathered a dataset of comments from software systems in the electronic health records (EHR) domain and their corresponding labels which indicates whether a comment references NFRs or not.
+
+This repository contains the following datasets: 
+- Apache web server: The dataset contains the source code of Apache httpd web server (version 2.4.18), the source code comments written in .c files, and a set of 700 comments manually labeled for the purpose of classifying comments according to their content.
+- iTrust: The dataset contains the source code of v21 of iTrust, which is an open source medical application within the EHR domain. For this projects, source code comments were extracted and the data is available in different formats. Each comment is labeled with NFR labels that indicate whether the comment is related to any of "Reliability" or "Security" categories.
+- software documents: We used the dataset from the EHR domain that was collected by Slankas et al. for parts of our training and comparing the characteristics to our dataset of comments. 
